@@ -1,0 +1,33 @@
+body {
+  min-height: 100%;
+  width: 100%; 
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+} 
+
+li, a {
+  color: green;
+  font-size: 34px;
+}
+
+a:hover {
+  color:pink;
+}
+
+ol li {
+	list-style-type: decimal;
+}
+
+ul li {
+	list-style-type: square;
+}
+ li {
+ 	padding: 5px 0;
+ }
+
+ ul {
+ 	padding-left: 40px;
+ }
