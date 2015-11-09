@@ -1,0 +1,107 @@
+body {
+  min-height: 100%;
+  width: 100%; 
+}
+
+h1, h2, h3, p {
+  margin: 10px 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.wrap {
+  width: 750px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  line-height: 1.5;
+}
+
+fieldset {
+  border: 2px solid lime;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  border: 2px solid red;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.first li {
+  margin: 15px 0;
+}
+
+input {
+  border:1px solid lightgray;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+input[name="first_name"], input[name="last_name"] {
+  width: 250px;
+}
+
+input[name="age"] {
+  width: 50px;
+} 
+
+.small {
+  font-size: 13px;
+  margin: 0;
+}
+
+.stext input {
+  width: 140px;
+}
+
+select[name="position"] {
+  margin-top: 15px;
+}
+
+.end+p {
+  margin: 0;
+}
+
+.head_list_bold {
+  font-weight: bold;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.head_list_italic {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+input[readonly="readonly"] {
+  font-size: 12px;
+  height: 20px;
+  width: 240px;
+  padding-left: 10px;
+}
+
+#email {
+  width: 250px;
+}
