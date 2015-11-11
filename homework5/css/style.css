@@ -1,0 +1,200 @@
+body {
+	min-height: 100%;
+	line-height: 20px;
+	font-size: 11px;
+	font-family: Tahoma, sans-serif;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.wrapper {
+	width: 960px;
+	margin-left: 20px; 
+
+}
+
+.header {
+	padding: 25px 0 10px;
+}
+
+.main {
+	background-color: #f4f4f4;
+	padding: 20px 0 55px;
+	min-height: 1010px;
+	overflow: hidden;
+}
+
+.left-sidebar {
+	width: 120px;
+	float: left;
+	margin-right: 20px;
+}
+
+.left-sidebar img {
+	width: 100%;
+	height: auto;
+}
+
+.left-sidebar h3 {
+	margin: 25px 0 5px;
+}
+
+.left-sidebar a{
+	text-decoration: none;
+	color: black;
+}
+
+.left-sidebar li {
+	background-color: #e8e8e8;
+	border-bottom: 1px solid #f6f6f6;
+	padding: 2px 5px;
+}
+
+.left-sidebar span {
+	color: #888888;
+	float: right;
+}
+
+input[type="search"] {
+	width: 100%;
+	height: 20px;
+	border: none;
+}
+
+.content {
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+}
+
+.big-post h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.big-post img+p {
+	color: #555;
+	font-size: 14px;
+	padding: 30px 0 25px;
+}
+
+.big-post-list li {
+	display: inline-block;
+}
+
+li.first-item {
+	display: block;
+}
+
+.big-post-list span, .mini-post span {
+	color: #888888;
+}
+
+.mini-post {
+	margin-top: 60px;
+}
+
+.mini-post h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.mini-post img {
+	margin: 10px 0 0 20px;
+}
+
+.mini-post_info h2+p{
+	padding: 10px 0 20px;
+}
+.mini-post_info {
+	width: 240px;
+	float: left;
+}
+
+.mini-post ul {
+	border-top:1px solid #888888;
+	clear: both;
+}
+
+.mini-post li {
+	display: inline-block;
+}
+
+.right-sidebar {
+    width: 300px;
+    overflow: hidden;
+}
+
+.social_net {
+	float: left;
+	width: 120px;
+}
+
+.pagination li {
+	display: inline-block;
+	background-color: white;
+    padding: 0 6px;
+}
+
+
+.pagination {
+    margin-top: 60px;
+}
+
+.pagination a {
+	text-decoration: none;
+	color: black;
+}
+
+.pagination li:hover, .left-sidebar li:hover{
+	background: lightgrey;
+}
+
+li.active_page {
+	background-color: #555;	
+}
+
+li.active_page a {
+	color: white;
+}
+
+li.no_bac, li.no_bac:hover {
+	background: none;
+}
+
+.social_net img {
+	float: left;
+	padding: 5px 5px 0 0;
+}
+
+.social_net p{
+	font-weight: bold;
+}
+
+.net {
+	padding: 20px 0;
+}
+
+.right-sidebar120 {
+    width: 120px;
+    float: right;
+}
+
+.right-sidebar160 {
+    width: 160px;
+    float: left;
+}
+
+.footer {
+	padding: 20px 0;
+	clear: both;
+}
