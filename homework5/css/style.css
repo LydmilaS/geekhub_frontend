@@ -10,20 +10,28 @@ h1 {
 	font-weight: bold;
 }
 
-h3 {
+h3, label {
 	font-weight: bold;
 	font-size: 13px;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
 .wrapper {
 	width: 960px;
-	margin-left: 20px; 
-
+	margin-left: 20px;
+	margin: 0 auto; 
 }
+
+/*---------------------------------------- header ---------------------------------*/
 
 .header {
 	padding: 25px 0 10px;
 }
+
+/*---------------------------------------- main -----------------------------------*/
 
 .main {
 	background-color: #f4f4f4;
@@ -32,6 +40,7 @@ h3 {
 	overflow: hidden;
 }
 
+/*---------------------------------------left-sidebar-------------------------------*/
 .left-sidebar {
 	width: 120px;
 	float: left;
@@ -43,7 +52,7 @@ h3 {
 	height: auto;
 }
 
-.left-sidebar h3 {
+.left-sidebar h3, .search {
 	margin: 25px 0 5px;
 }
 
@@ -69,10 +78,16 @@ input[type="search"] {
 	border: none;
 }
 
+/*---------------------------------------content----------------------------------*/
+
 .content {
     width: 500px;
     float: left;
     margin-right: 20px;
+}
+
+.content a {
+	color: #888;
 }
 
 .big-post h2 {
@@ -87,16 +102,13 @@ input[type="search"] {
 	padding: 30px 0 25px;
 }
 
-.big-post-list li {
+.share {
 	display: inline-block;
 }
 
-li.first-item {
-	display: block;
-}
-
-.big-post-list span, .mini-post span {
-	color: #888888;
+.date, .comment, .tag {
+	float: left;
+	margin-right: 5px;
 }
 
 .mini-post {
@@ -113,42 +125,30 @@ li.first-item {
 }
 
 .mini-post_info h2+p{
-	padding: 10px 0 20px;
+	padding: 10px 0 12px;
+}
+
+.content li {
+	display: inline-block;
+}
+
+ul.mini-post>li {
+	margin-bottom: 60px;
 }
 .mini-post_info {
 	width: 240px;
 	float: left;
 }
 
-.mini-post ul {
-	border-top:1px solid #888888;
-	clear: both;
+.mini-post-border {
+	border-bottom: 1px solid lightgrey;
 }
-
-.mini-post li {
-	display: inline-block;
-}
-
-.right-sidebar {
-    width: 300px;
-    overflow: hidden;
-}
-
-.social_net {
-	float: left;
-	width: 120px;
-}
-
 .pagination li {
 	display: inline-block;
 	background-color: white;
     padding: 0 6px;
 }
 
-
-.pagination {
-    margin-top: 60px;
-}
 
 .pagination a {
 	text-decoration: none;
@@ -171,17 +171,59 @@ li.no_bac, li.no_bac:hover {
 	background: none;
 }
 
-.social_net img {
-	float: left;
-	padding: 5px 5px 0 0;
+/*------------------------------------------right-sidebar---------------------------*/
+
+.right-sidebar {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
 }
 
-.social_net p{
-	font-weight: bold;
+.social_net li {
+    width: 95px;
+    padding-left: 35px;
+    float: left;
+    height: 32px;
+    font-weight: bold;
+}
+
+.social_net span {
+	color: #888;
+	display: block;
+}
+
+.social_net a {
+  display:block; 
+  height: 32px;
+  background: url(../images/icon.png) no-repeat;
+  
+ }
+
+#tw a {
+    width: 32px;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+#tw a:hover {
+  background-position: 1px -32px;
+}
+
+#rss a  {
+	background-position: -32px 0;
+    position: absolute;
+    width: 32px;
+    left: 130px;
+    top: 5px
+}
+
+#rss a:hover {
+  background-position: -32px -32px;
 }
 
 .net {
-	padding: 20px 0;
+	padding: 28px 0 20px;
 }
 
 .right-sidebar120 {
@@ -194,9 +236,15 @@ li.no_bac, li.no_bac:hover {
     float: left;
 }
 
+/*----------------------------------------------footer-------------------------------------*/
+
+.footer a {
+	text-decoration: none;
+	color: #888888;
+}
+
 .footer {
 	padding: 20px 0;
 	clear: both;
+	color: #888888;
 }
-
-
