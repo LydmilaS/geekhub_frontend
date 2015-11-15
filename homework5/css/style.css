@@ -1,0 +1,250 @@
+body {
+	min-height: 100%;
+	line-height: 20px;
+	font-size: 11px;
+	font-family: Tahoma, sans-serif;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h3, label {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.wrapper {
+	width: 960px;
+	margin-left: 20px;
+	margin: 0 auto; 
+}
+
+/*---------------------------------------- header ---------------------------------*/
+
+.header {
+	padding: 25px 0 10px;
+}
+
+/*---------------------------------------- main -----------------------------------*/
+
+.main {
+	background-color: #f4f4f4;
+	padding: 20px 0 55px;
+	min-height: 1010px;
+	overflow: hidden;
+}
+
+/*---------------------------------------left-sidebar-------------------------------*/
+.left-sidebar {
+	width: 120px;
+	float: left;
+	margin-right: 20px;
+}
+
+.left-sidebar img {
+	width: 100%;
+	height: auto;
+}
+
+.left-sidebar h3, .search {
+	margin: 25px 0 5px;
+}
+
+.left-sidebar a{
+	text-decoration: none;
+	color: black;
+}
+
+.left-sidebar li {
+	background-color: #e8e8e8;
+	border-bottom: 1px solid #f6f6f6;
+	padding: 2px 5px;
+}
+
+.left-sidebar span {
+	color: #888888;
+	float: right;
+}
+
+input[type="search"] {
+	width: 100%;
+	height: 20px;
+	border: none;
+}
+
+/*---------------------------------------content----------------------------------*/
+
+.content {
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+}
+
+.content a {
+	color: #888;
+}
+
+.big-post h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.big-post img+p {
+	color: #555;
+	font-size: 14px;
+	padding: 30px 0 25px;
+}
+
+.share {
+	display: inline-block;
+}
+
+.date, .comment, .tag {
+	float: left;
+	margin-right: 5px;
+}
+
+.mini-post {
+	margin-top: 60px;
+}
+
+.mini-post h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.mini-post img {
+	margin: 10px 0 0 20px;
+}
+
+.mini-post_info h2+p{
+	padding: 10px 0 12px;
+}
+
+.content li {
+	display: inline-block;
+}
+
+ul.mini-post>li {
+	margin-bottom: 60px;
+}
+.mini-post_info {
+	width: 240px;
+	float: left;
+}
+
+.mini-post-border {
+	border-bottom: 1px solid lightgrey;
+}
+.pagination li {
+	display: inline-block;
+	background-color: white;
+    padding: 0 6px;
+}
+
+
+.pagination a {
+	text-decoration: none;
+	color: black;
+}
+
+.pagination li:hover, .left-sidebar li:hover{
+	background: lightgrey;
+}
+
+li.active_page {
+	background-color: #555;	
+}
+
+li.active_page a {
+	color: white;
+}
+
+li.no_bac, li.no_bac:hover {
+	background: none;
+}
+
+/*------------------------------------------right-sidebar---------------------------*/
+
+.right-sidebar {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.social_net li {
+    width: 95px;
+    padding-left: 35px;
+    float: left;
+    height: 32px;
+    font-weight: bold;
+}
+
+.social_net span {
+	color: #888;
+	display: block;
+}
+
+.social_net a {
+  display:block; 
+  height: 32px;
+  background: url(../images/icon.png) no-repeat;
+  
+ }
+
+#tw a {
+    width: 32px;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+#tw a:hover {
+  background-position: 1px -32px;
+}
+
+#rss a  {
+	background-position: -32px 0;
+    position: absolute;
+    width: 32px;
+    left: 130px;
+    top: 5px
+}
+
+#rss a:hover {
+  background-position: -32px -32px;
+}
+
+.net {
+	padding: 28px 0 20px;
+}
+
+.right-sidebar120 {
+    width: 120px;
+    float: right;
+}
+
+.right-sidebar160 {
+    width: 160px;
+    float: left;
+}
+
+/*----------------------------------------------footer-------------------------------------*/
+
+.footer a {
+	text-decoration: none;
+	color: #888888;
+}
+
+.footer {
+	padding: 20px 0;
+	clear: both;
+	color: #888888;
+}

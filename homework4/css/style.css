@@ -1,0 +1,131 @@
+body {
+    background: url(../images/bac.jpg) repeat-x;
+    font-family: Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*--------------------- header area --------------------*/
+
+.wrapper {
+    width: 760px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    padding: 30px 0;
+    border-bottom: 1px solid #939598;
+}
+
+.logo {
+	float: left;
+}
+
+.nav {
+	
+    float: right;
+    margin-top: 25px;
+}
+
+.nav li {
+    float: left;
+    padding: 0 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: grey;
+    text-transform: lowercase;
+}
+
+.nav li a.active,
+.nav li a:hover,
+.sidebar-title {
+    color: #03a7fe;
+}
+
+.category-list li {
+	border-top: 1px solid grey;
+	padding: 8px 23px;
+}
+
+.category-list li:first-child {
+	border-top: none;
+}
+
+.sidebar-title {
+	font-weight: bold;
+    font-size: 21px;
+    padding-bottom: 
+}
+
+.category-list {
+    margin-top: 30px;
+}
+
+.category-list li {
+    color: #848585;
+    font-size: 14px;
+}
+
+.category-list li:before {
+    content: url(../images/arrow.png);
+    position: absolute;
+    left: 0;
+}
+/*--------------------- main area --------------------*/
+
+.main {
+    padding: 20px 0;
+}
+
+.sidebar {
+	float: left;
+	width: 180px;
+	margin-right: 20px;
+    position: relative;
+}
+
+.content {
+	overflow: hidden;
+}
+
+.content img {
+    padding: 15px 0 30px;
+} 
+h1 {
+    font-size: 28px;
+    padding: 26px 0;
+    border-bottom: 1px solid #03a7fe;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    color: #848585;
+    line-height: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #03a7fe;
+    padding-bottom: 10px;
+}
+/*--------------------- footer area --------------------*/
+
+.footer {
+    height: 40px;
+    border-top: 1px solid gray;
+    padding: 10px;
+    font-size: 10px;
+    color: #848585;
+    font-weight: bold;
+}
+
+.footer span {
+    color: black;
+}
