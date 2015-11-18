@@ -1,0 +1,356 @@
+body {
+    background: url(../images/bac.png) repeat-x;
+    font-family: Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+    width: 780px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*--------------------- header area --------------------*/
+
+.header {
+    overflow: hidden;
+    padding: 40px 0 15px;
+    background: url(../images/header-background.png) bottom center no-repeat,url(../images/registration.png) top right no-repeat;
+    position: relative;  
+}
+
+.header img {
+    float: left;
+}
+
+.header span {
+    width: 102px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding-top: 20px;
+    color: grey;
+}
+.header h3 {
+    font-size: 15px;
+    color: grey;
+    float: right;
+    padding: 18px 25px 0 0;
+    font-weight: 600;
+}
+
+.logo {
+    float: left;
+}
+
+
+ul.registration {
+    font-size: 11px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.nav   {
+    float: right;
+    margin: 62px 32px 0 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 24px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: grey;
+    text-transform: lowercase;
+}
+
+.registration li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.registration li:last-child {
+    border-left: 1px solid grey;
+}
+
+.nav li a.active,
+.nav li a:hover,
+.registration li a.active,
+.registration li a:hover,
+.sidebar-title {
+    color: #03a7fe;
+}
+
+
+
+
+/*----------------------------------------------- main area ------------------------------------*/
+
+.main {
+    padding: 20px 0 300px;
+}
+
+
+/*----------------------sidebar-------------------------*/
+
+.sidebar {
+    float: left;
+    width: 230px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.sidebar h3{
+    font-size: 22px; 
+}
+
+.sidebar h3:after {
+    content: url(../images/category_arrow.png);
+    position: absolute;
+    left: 112px;
+    top: -2px;
+}
+
+.category-list {
+    margin-top: 30px;
+}
+
+.category-list li {
+    color: #848585;
+    font-size: 14px;
+    border-top: 1px solid grey;
+    padding: 8px 23px;
+}
+
+.category-list li:first-child {
+    border-top: none;
+}
+
+.category-list li:before {
+    content: url(../images/arrow.png);
+    position: absolute;
+    left: 0;
+}
+
+ul.emblem-company {
+    position: relative;
+    margin-top: 50px;
+}
+
+ul.emblem-company li:first-child {
+    padding: 30px 64px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#rss a {
+    background: none;
+    color: grey;
+    font-size: 18px;
+    border: 3px solid #ff9600;
+    border-radius: 20px;
+    width: 60px;
+    padding: 2px 15px;
+}
+
+#rss a:hover {
+  color: #ff9600;
+}
+
+.emblem-company a {
+  display:block; 
+  background: url(../images/bac-sprite.png) no-repeat;
+  left: 60px;
+  
+ }
+
+#master-of-code a {
+    width: 116px;
+    height: 66px;
+    position: absolute;
+    background-position: -140px 1px;
+    top: 106px;
+}
+
+#master-of-code a:hover {
+    width: 116px;
+    height: 72px;
+    position: absolute;
+    background-position: -136px -70px;
+    top: 106px;
+}
+
+#formapro a {
+    width: 116px;
+    height: 72px;
+    position: absolute;
+    background-position: -134px -212px;
+    top: 196px;
+}
+
+#formapro a:hover {
+    width: 116px;
+    height: 66px;
+    position: absolute;
+    background-position: -134px -140px;
+    top: 196px;
+}
+
+
+#interlink a {
+    width: 116px;
+    height: 48px;
+    position: absolute;
+    background-position: -132px -329px;
+    top: 300px;
+}
+
+#interlink a:hover {
+    width: 116px;
+    height: 48px;
+    position: absolute;
+    background-position: -134px -281px;
+    top: 300px;
+}
+
+#veb-ceh a {
+    width: 116px;
+    height: 120px;
+    position: absolute;
+    background-position: -14px -211px;
+    top: 370px;
+}
+
+#veb-ceh a:hover {
+    width: 116px;
+    height: 120px;
+    position: absolute;
+    background-position: -14px -89px;
+    top: 370px;
+}
+
+#artsofte a {
+    width: 116px;
+    height: 46px;
+    position: absolute;
+    background-position: -17px -43px;
+    top: 520px;
+}
+
+#artsofte a:hover {
+    width: 116px;
+    height: 46px;
+    position: absolute;
+    background-position: -17px 6px;
+    top: 520px;
+}
+
+
+/*----------------------content----------------*/
+
+.content {
+	overflow: hidden;
+}
+
+.content img {
+    padding: 0 20px 0 10px;
+    float: left;
+} 
+
+h1 {
+    font-size: 28px;
+    padding: 26px 0;
+    border-bottom: 1px solid #03a7fe;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    color: #848585;
+    line-height: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #03a7fe;
+    padding-bottom: 10px;
+}
+
+.list-company>li {
+    overflow: hidden;
+    border-bottom: 1px solid #03a7fe;
+    padding: 15px 0;
+}
+
+
+.about-company {
+    float: left;
+    width: 395px;
+}
+
+.characteristics-companies li {
+    font-size: 13px;
+    background-color: #dfe5e6;
+    padding: 5px;
+    color: #636464;
+    margin-bottom: 4px;
+}
+
+.characteristics-companies li:nth-child(2) {
+    overflow: hidden;
+}
+
+.characteristics-companies a {
+    width: 176px;
+    float: right;
+    color: blue;
+}
+
+ul.programmin, .characteristics-companies span {
+    display: inline-block;
+    width: 176px;
+    float: right;
+    color: black;
+}
+
+ul.programmin li {
+    display: inline;
+    padding: 0;
+    color: black;
+}
+
+li.connect, li.ceo {
+    overflow: hidden;
+    margin: 0;
+}
+
+li.grey-fon {
+    background-color: #eef1f2;
+}
+
+.fa {
+    padding: 0 5px 0 0;
+    color: #6c6c6c;
+    font-weight: bold;
+}
+/*------------------ footer area --------------------*/
+
+.footer {
+    font-size: 10px;
+    color: #848585;
+    font-weight: bold;
+    border-top: 1px solid grey;
+    padding: 0 0 30px 250px;
+}
+
+.footer-info {
+    background: url(../images/footer-fon.png) no-repeat;
+    padding: 12px
+}
