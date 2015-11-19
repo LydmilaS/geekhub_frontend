@@ -141,10 +141,10 @@ ul.registration {
 
 ul.emblem-company {
     position: relative;
-    margin-top: 50px;
 }
 
-ul.emblem-company li:first-child {
+#rss {
+    margin-top:50px; 
     padding: 30px 64px;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
@@ -161,7 +161,7 @@ ul.emblem-company li:first-child {
 }
 
 #rss a:hover {
-  color: #ff9600;
+  color: #ff9600 !important;
 }
 
 .emblem-company a {
@@ -176,7 +176,7 @@ ul.emblem-company li:first-child {
     height: 66px;
     position: absolute;
     background-position: -140px 1px;
-    top: 106px;
+    top: 20px;
 }
 
 #master-of-code a:hover {
@@ -184,7 +184,7 @@ ul.emblem-company li:first-child {
     height: 72px;
     position: absolute;
     background-position: -136px -70px;
-    top: 106px;
+    top: 20px;
 }
 
 #formapro a {
@@ -192,7 +192,7 @@ ul.emblem-company li:first-child {
     height: 72px;
     position: absolute;
     background-position: -134px -212px;
-    top: 196px;
+    top: 110px;
 }
 
 #formapro a:hover {
@@ -200,7 +200,7 @@ ul.emblem-company li:first-child {
     height: 66px;
     position: absolute;
     background-position: -134px -140px;
-    top: 196px;
+    top: 110px;
 }
 
 
@@ -209,7 +209,7 @@ ul.emblem-company li:first-child {
     height: 48px;
     position: absolute;
     background-position: -132px -329px;
-    top: 300px;
+    top: 214px;
 }
 
 #interlink a:hover {
@@ -217,7 +217,7 @@ ul.emblem-company li:first-child {
     height: 48px;
     position: absolute;
     background-position: -134px -281px;
-    top: 300px;
+    top: 214px;
 }
 
 #veb-ceh a {
@@ -225,7 +225,7 @@ ul.emblem-company li:first-child {
     height: 120px;
     position: absolute;
     background-position: -14px -211px;
-    top: 370px;
+    top: 284px;
 }
 
 #veb-ceh a:hover {
@@ -233,7 +233,7 @@ ul.emblem-company li:first-child {
     height: 120px;
     position: absolute;
     background-position: -14px -89px;
-    top: 370px;
+    top: 284px;
 }
 
 #artsofte a {
@@ -241,7 +241,7 @@ ul.emblem-company li:first-child {
     height: 46px;
     position: absolute;
     background-position: -17px -43px;
-    top: 520px;
+    top: 434px;
 }
 
 #artsofte a:hover {
@@ -249,7 +249,7 @@ ul.emblem-company li:first-child {
     height: 46px;
     position: absolute;
     background-position: -17px 6px;
-    top: 520px;
+    top: 434px;
 }
 
 
