@@ -1,70 +1,9 @@
-/*--------------------------------------------  fonts  -------------------------------------*/
-@font-face {
-  font-family: 'icomoon';
-  src:url('../fonts/icons/icomoon.eot?7c1w93');
-  src:url('../fonts/icons/icomoon.eot?7c1w93#iefix') format('embedded-opentype'),
-    url('../fonts/icons/icomoon.ttf?7c1w93') format('truetype'),
-    url('../fonts/icons/icomoon.woff?7c1w93') format('woff'),
-    url('../fonts/icons/icomoon.svg?7c1w93#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-activity:before {
-  content: "\e902";
-}
-.icon-atom:before {
-  content: "\e903";
-}
-.icon-branding:before {
-  content: "\e904";
-}
-.icon-design:before {
-  content: "\e905";
-}
-.icon-graduation-cap:before {
-  content: "\e906";
-}
-.icon-left-arrow:before {
-  content: "\e907";
-}
-.icon-logo-footer:before {
-  content: "\e908";
-}
-.icon-portfolio:before {
-  content: "\e909";
-}
-.icon-right-arrow:before {
-  content: "\e90a";
-}
-.icon-rocket:before {
-  content: "\e90b";
-}
-.icon-search:before {
-  content: "\e900";
-}
-.icon-menu:before {
-  content: "\e901";
-}
-.icon-cart:before {
-  content: "\e90c";
-}
 
 /*--------------------------------------------  wrapper  -------------------------------------*/
+body {
+    font-family: "Raleway", sans-serif;
+}
+
 .wrapper {
     width: 90%;
     margin: 0 auto;
@@ -72,11 +11,15 @@
 }
 
 h2 {
+    font-family: "RalewayExtraLight";
     font-size: 60px;
     color: #576671;
     padding-bottom: 36px;
 }
 
+h3 {
+
+}
 .icon {
     display: block;
     width: 96px;
@@ -86,6 +29,10 @@ h2 {
     color: #17daa3;
     float: left;
     margin-right: 30px; 
+}
+
+p {
+    font-family: "ProximaNovaRegular";
 }
 
 /*---------------------------------------------  header  --------------------------------------*/
@@ -118,9 +65,10 @@ h2 {
     padding-left: 50px
 }
 
-.nav a, .template a {
+.nav a {
     text-decoration: none;
     color: white;
+    font-family: "RalewayBold"
 }
 
 .nav a:hover {
@@ -148,14 +96,14 @@ h2 {
 }
 
 .slider h1 {
+    font-family: "RalewayThin";
     font-size: 60px;
     font-weight: 100;
     padding-bottom: 30px;
 }
 
-.slider span,
-.template span {
-    font-weight: bold;
+.slider span, .template span {
+    font-family: "RalewayBold";
 }
 
 .slider a:hover {
@@ -293,12 +241,17 @@ h2 {
     font-size: 30px;
     padding: 30px 0;
     color: white;
+    font-family: "RalewayLight";
 }
 
 .opinions-text span {
-    color: #17daa3
+    color: #17daa3;
+    font-family: "RalewayMedium";
 }
 
+.opinions-text p {
+    font-family: "RalewayLight"
+}
 /*---------------------------------------------  our service  --------------------------------------*/
 
 .our-services, .pricing{
@@ -306,6 +259,10 @@ h2 {
     background: #f9f9fb;
     padding: 100px 0;
     overflow: hidden;
+}
+
+.our-services h3 {
+    font-family: "RalewayExtraLight"
 }
 
 .services li {
@@ -407,6 +364,7 @@ li.light-grey {
     font-size: 60px;
     display: block;
     padding: 30px ;
+    font-family: "RalewayExtraLight"
    
 }
 
@@ -431,6 +389,7 @@ li.light-grey {
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    font-family: "ProximaNovaBold";
 } 
 
 .purchase i {
@@ -467,8 +426,14 @@ li.light-grey {
 .template h2 {
     color: white;
     margin-bottom: 80px;
+    font-family: "RalewayExtraLight"
 }
 
+.template a {
+    text-decoration: none;
+    color: white;
+    font-family: "RalewayExtraLight"
+}
 /*---------------------------------------------  footer  --------------------------------------*/
 
 .footer .wrapper {
