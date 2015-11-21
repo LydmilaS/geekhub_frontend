@@ -18,7 +18,7 @@ a {
 
 .header {
     overflow: hidden;
-    padding: 40px 0 15px;
+    padding: 40px 0 0;
     background: url(../images/header-background.png) bottom center no-repeat,url(../images/registration.png) top right no-repeat;
     position: relative;  
 }
@@ -62,7 +62,11 @@ ul.registration {
 
 .nav li {
     display: inline-block;
-    padding: 0px 24px;
+    padding: 0px 24px 15px;
+}
+
+.nav li:hover {
+    background: linear-gradient(to bottom, #ffffff, #d9dfe1);
 }
 
 .nav li a {
