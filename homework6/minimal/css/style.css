@@ -111,7 +111,8 @@ ul.registration {
 /*----------------------------------------------- main area ------------------------------------*/
 
 .main {
-    padding: 20px 0 300px;
+    padding: 20px 0 100px;
+    overflow: hidden;
 }
 
 
@@ -156,9 +157,6 @@ ul.registration {
     left: 0;
 }
 
-ul.emblem-company {
-    position: relative;
-}
 
 #rss {
     margin-top:50px; 
@@ -181,93 +179,22 @@ ul.emblem-company {
   color: #ff9600;
 }
 
-.emblem-company a {
-  display:block; 
-  background: url(../images/bac-sprite.png) no-repeat;
-  left: 60px;
-  
- }
 
-#master-of-code a {
-    width: 116px;
-    height: 66px;
-    position: absolute;
-    background-position: -140px 1px;
-    top: 20px;
+ .emblem-company li {
+    margin: 30px 0 0 50px;
+    filter: url(#gray);  /* Firefox 4+ */
+    filter: gray; /* IE 5+ */
+    -webkit-filter: url(#gray); /* Chrome ?? */
+    -webkit-filter: grayscale(1); /* Chrome 18+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)"; /* new IE */
 }
 
-#master-of-code a:hover {
-    width: 116px;
-    height: 72px;
-    position: absolute;
-    background-position: -136px -70px;
-    top: 20px;
+.emblem-company li:hover {
+    filter: none;
+    -webkit-filter: none;
+    -ms-filter: none;
 }
 
-#formapro a {
-    width: 116px;
-    height: 72px;
-    position: absolute;
-    background-position: -134px -212px;
-    top: 110px;
-}
-
-#formapro a:hover {
-    width: 116px;
-    height: 66px;
-    position: absolute;
-    background-position: -134px -140px;
-    top: 110px;
-}
-
-
-#interlink a {
-    width: 116px;
-    height: 48px;
-    position: absolute;
-    background-position: -132px -329px;
-    top: 214px;
-}
-
-#interlink a:hover {
-    width: 116px;
-    height: 48px;
-    position: absolute;
-    background-position: -134px -281px;
-    top: 214px;
-}
-
-#veb-ceh a {
-    width: 116px;
-    height: 120px;
-    position: absolute;
-    background-position: -14px -211px;
-    top: 284px;
-}
-
-#veb-ceh a:hover {
-    width: 116px;
-    height: 120px;
-    position: absolute;
-    background-position: -14px -89px;
-    top: 284px;
-}
-
-#artsofte a {
-    width: 116px;
-    height: 46px;
-    position: absolute;
-    background-position: -17px -43px;
-    top: 434px;
-}
-
-#artsofte a:hover {
-    width: 116px;
-    height: 46px;
-    position: absolute;
-    background-position: -17px 6px;
-    top: 434px;
-}
 
 
 /*----------------------content----------------*/
@@ -303,7 +230,7 @@ h2 {
 .list-company>li {
     overflow: hidden;
     border-bottom: 1px solid #03a7fe;
-    padding: 15px 0;
+    padding: 15px 0 20px;
 }
 
 
