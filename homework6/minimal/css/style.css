@@ -19,8 +19,8 @@ a {
 .header {
     overflow: hidden;
     padding: 40px 0 0;
-    background: url(../images/header-background.png) bottom center no-repeat,url(../images/registration.png) top right no-repeat;
-    position: relative;  
+    position: relative;
+    border-bottom: 1px solid grey;  
 }
 
 .header img {
@@ -51,8 +51,11 @@ a {
 ul.registration {
     font-size: 11px;
     position: absolute;
-    top: 5px;
+    top: 0;
     right: 15px;
+    background-color: white;
+    padding: 4px 14px 6px;
+    border-radius: 2px 2px 20px 20px;
 }
 
 .nav   {
@@ -62,10 +65,13 @@ ul.registration {
 
 .nav li {
     display: inline-block;
-    padding: 0px 24px 15px;
+    padding: 15px 24px 15px;
+    border: 1px solid grey;
+    margin: 0 -6px -2px 0;
 }
 
-.nav li:hover {
+.nav li:hover, 
+.nav li:first-child {
     background: linear-gradient(to bottom, #ffffff, #d9dfe1);
 }
 
@@ -75,6 +81,13 @@ ul.registration {
     text-transform: lowercase;
 }
 
+.nav li:first-child {
+    border-radius: 26px 0 0 0;
+}
+
+.nav li:last-child {
+    border-radius: 0 26px 0 0;
+}
 .registration li {
     display: inline-block;
     padding: 0 10px;
@@ -164,8 +177,8 @@ ul.emblem-company {
     padding: 2px 15px;
 }
 
-#rss a:hover {
-  color: #ff9600 !important;
+#rss a:hover, .fa-rss {
+  color: #ff9600;
 }
 
 .emblem-company a {
@@ -341,8 +354,11 @@ li.grey-fon {
 
 .fa {
     padding: 0 5px 0 0;
-    color: #6c6c6c;
     font-weight: bold;
+}
+
+.connect i {
+    color: #6c6c6c;
 }
 /*------------------ footer area --------------------*/
 
@@ -351,10 +367,21 @@ li.grey-fon {
     color: #848585;
     font-weight: bold;
     border-top: 1px solid grey;
-    padding: 0 0 30px 250px;
+    padding: 0 25px 30px 250px;
 }
 
 .footer-info {
-    background: url(../images/footer-fon.png) no-repeat;
-    padding: 12px
+    padding: 12px 15px;
+    background-color: #d9dada;
+    border-radius: 0 0 25px 25px;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer img {
+    float: right;
+    background-color: rgba(217, 218, 218, 0.3);
 }
