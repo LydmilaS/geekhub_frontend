@@ -1,0 +1,506 @@
+/*--------------------------------------------  fonts  -------------------------------------*/
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icons/icomoon.eot?7c1w93');
+  src:url('../fonts/icons/icomoon.eot?7c1w93#iefix') format('embedded-opentype'),
+    url('../fonts/icons/icomoon.ttf?7c1w93') format('truetype'),
+    url('../fonts/icons/icomoon.woff?7c1w93') format('woff'),
+    url('../fonts/icons/icomoon.svg?7c1w93#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-activity:before {
+  content: "\e902";
+}
+.icon-atom:before {
+  content: "\e903";
+}
+.icon-branding:before {
+  content: "\e904";
+}
+.icon-design:before {
+  content: "\e905";
+}
+.icon-graduation-cap:before {
+  content: "\e906";
+}
+.icon-left-arrow:before {
+  content: "\e907";
+}
+.icon-logo-footer:before {
+  content: "\e908";
+}
+.icon-portfolio:before {
+  content: "\e909";
+}
+.icon-right-arrow:before {
+  content: "\e90a";
+}
+.icon-rocket:before {
+  content: "\e90b";
+}
+.icon-search:before {
+  content: "\e900";
+}
+.icon-menu:before {
+  content: "\e901";
+}
+.icon-cart:before {
+  content: "\e90c";
+}
+
+/*--------------------------------------------  wrapper  -------------------------------------*/
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 60px;
+    color: #576671;
+    padding-bottom: 36px;
+}
+
+.icon {
+    display: block;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: white;
+    color: #17daa3;
+    float: left;
+    margin-right: 30px; 
+}
+
+/*---------------------------------------------  header  --------------------------------------*/
+
+.header {
+    background: url(../images/background-section1.jpg) no-repeat;
+    padding: 60px 0 325px;
+    background-size: cover;
+}
+
+.logo-name {
+    font-size: 34px;
+    color: white;
+    float: left;
+}
+
+.logo-name span {
+    color: green;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 50px
+}
+
+.nav a, .template a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+} 
+
+.button {
+    border: 1px solid white;
+    padding: 12px 36px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: #17daa3;
+}
+
+.slider {
+    clear: both;
+    padding-top: 275px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.slider h1 {
+    font-size: 60px;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.slider span,
+.template span {
+    font-weight: bold;
+}
+
+.slider a:hover {
+    background-color: #17daa3;
+}
+
+.slider p {
+    font-size: 24px;
+    padding-bottom: 66px;
+}
+
+/*---------------------------------------------  about us  --------------------------------------*/
+
+.about-us {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.line {
+    border-top: 1px solid #17daa3;
+    width: 30px;
+    margin: 0 auto;
+}
+
+.about-us p,
+.our-services p,
+.team p,
+.pricing p {
+    padding: 36px 0 135px;
+    font-size: 18px;
+    color: #87949e;
+}
+
+.about-us ul li {
+    display: inline-block;
+    width: 21.4%;
+    padding: 0 1.6%;
+}
+
+.about-us h3 {
+    font-size: 30px;
+    margin: 82px auto 36px;
+}
+
+.about-us .button, 
+.photo .button,
+.mac .button,
+.map .button,
+.template .button {
+    border: 1px solid #17daa3;
+    text-decoration: none;
+    color: white;
+    background-color: #17daa3;
+}
+
+.about-us .button:hover, 
+.photo .button:hover,
+.mac .button:hover,
+.map .button:hover,
+.template .button:hover {
+    border: 2px solid #17daa3;
+    text-decoration: none;
+    color: #17daa3;
+    background-color: white;
+}
+
+.about-us-post a {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #edeff1;
+    color: #576671;
+    margin: 0 auto;
+}
+
+.about-us-post i {
+    display: inline-block;
+    padding-top: 55px;
+    font-size: 50px;
+}
+
+.about-us-post a:hover {
+    background-color: #17daa3;
+    color: white;
+}
+
+/*---------------------------------------------  photo  --------------------------------------*/
+
+
+.photo {
+    background: #f9f9fb;
+    padding: 11% 0;
+    overflow: hidden;
+}
+
+.photo-text,
+.mac-text {
+    width: 50%;
+    float: right;
+    font-size: 18px;
+    color: #87949e;
+    line-height: 1.5;
+}
+
+.photo-text p,
+.mac-text p,
+.map-text p {
+    padding-bottom: 60px;
+}
+
+/*---------------------------------------------  mac  --------------------------------------*/
+
+.mac {
+    padding: 11% 0;
+    overflow: hidden;
+}
+
+.mac-text {
+    float: left;
+}
+
+/*---------------------------------------------  opinions  --------------------------------------*/
+
+.opinions {
+    background: url(../images/opinions-bac.jpg) no-repeat;
+    padding: 9% 0;
+    background-size: cover;
+    text-align: center;
+    font-size: 18px;
+    color: #87949e;
+}
+
+.opinions-text img+p {
+    font-size: 30px;
+    padding: 30px 0;
+    color: white;
+}
+
+.opinions-text span {
+    color: #17daa3
+}
+
+/*---------------------------------------------  our service  --------------------------------------*/
+
+.our-services, .pricing{
+    text-align: center;
+    background: #f9f9fb;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.services li {
+    display: inline-block;
+    width: 45%;
+    float: left;
+}
+
+.about-service {
+    float: left;
+    width: 75%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.services h3 {
+    font-size: 58px;
+}
+
+.services li:nth-child(2n+1) {
+    margin-right: 5%;
+}
+
+.services p {
+    padding: 50px 0 100px;
+}
+
+.services i {
+    display: inline-block;
+    padding-top: 30px;
+    font-size: 37px;
+}
+
+/*---------------------------------------------  team  --------------------------------------*/
+
+.team  {
+    text-align: center;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.team-foto li {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    color: white;
+    padding: 100px 0;
+}
+
+.team-foto span {
+    font-size: 30px;
+    color: white;
+    opacity: 0;
+}
+
+.team-foto li.grey-active,
+.team-foto li.grey-active span,
+.team-foto li:hover {
+    background-color: #2dddac;
+    opacity: 1;
+}
+
+.team-foto li:hover span {
+    opacity: 1;
+}
+
+
+li.grey {
+    background-color: #e4e4e4;
+}
+
+li.line-grey {
+    background-color: #f9f9fa;
+}
+
+li.light-grey {
+    background-color: #efefef;
+}
+/*---------------------------------------------  pricing  --------------------------------------*/
+.pricing li {
+    width: 22%;
+    display: inline-block;
+    float: left;
+    margin: 16px;
+    background-color: white;
+    border-radius: 7px;
+    text-align: left;
+}
+
+.name-purchase {
+    color: #d6dade;
+    font-size: 18px;
+    display: block;
+    padding: 0 30px 50px;
+}
+
+.price {
+    color: #17daa3;
+    font-size: 60px;
+    display: block;
+    padding: 30px ;
+   
+}
+
+.info-pricing p {
+    padding: 60px 30px;
+    font-size: 18px;
+    color: #87949e;
+    line-height: 2;
+    border-top: 1px solid #87949e;
+}
+
+.purchase {
+    background-color: #17daa3;
+    padding: 15px 30px;
+
+}
+
+.purchase  a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+} 
+
+.purchase i {
+    float: right;
+}
+/*---------------------------------------------  map  --------------------------------------*/
+
+.map {
+    background: url('../images/map.jpg') right center no-repeat;
+    background-size: 50%;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.map-text {
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    color: #87949e;
+    line-height: 1.5;
+} 
+
+/*---------------------------------------------  template  --------------------------------------*/
+
+.template {
+    background: url('../images/template-bac.jpg') center no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 250px 0;
+    text-align: center;
+
+}
+
+.template h2 {
+    color: white;
+    margin-bottom: 80px;
+}
+
+/*---------------------------------------------  footer  --------------------------------------*/
+
+.footer .wrapper {
+    background: url('../images/footer-bac.png') top center no-repeat;
+    background-size: 70%;
+    padding: 70px 0 400px
+}
+
+.footer-nav {
+    float: right;
+}
+
+.footer-nav li {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 50px
+}
+
+.footer a {
+    color: #d6dade;
+    text-decoration: none;
+}
+.footer-nav a.active {
+    color: #87949e;
+}
+
+.logo-footer {
+    float: left;
+}
+
+.icon-logo-footer {
+    color: #17daa3;
+    padding-right: 10px
+}
