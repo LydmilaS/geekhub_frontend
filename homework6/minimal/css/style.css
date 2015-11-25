@@ -1,0 +1,314 @@
+body {
+    background: url(../images/bac.png) repeat-x;
+    font-family: Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+    width: 780px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*--------------------- header area --------------------*/
+
+.header {
+    overflow: hidden;
+    padding: 40px 0 0;
+    position: relative;
+    border-bottom: 1px solid grey;  
+}
+
+.header img {
+    float: left;
+}
+
+.header span {
+    width: 102px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding-top: 20px;
+    color: grey;
+}
+.header h3 {
+    font-size: 15px;
+    color: grey;
+    float: right;
+    padding: 18px 25px 0 0;
+    font-weight: 600;
+}
+
+.logo {
+    float: left;
+}
+
+
+ul.registration {
+    font-size: 11px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    background-color: white;
+    padding: 4px 14px 6px;
+    border-radius: 2px 2px 20px 20px;
+}
+
+.nav   {
+    float: right;
+    margin: 62px 32px 0 0;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 15px 24px 15px;
+    border: 1px solid grey;
+    margin: 0 -6px -2px 0;
+}
+
+.nav li:hover, 
+.nav li:first-child {
+    background: linear-gradient(to bottom, #ffffff, #d9dfe1);
+}
+
+.nav li a {
+    text-decoration: none;
+    color: grey;
+    text-transform: lowercase;
+}
+
+.nav li:first-child {
+    border-radius: 26px 0 0 0;
+}
+
+.nav li:last-child {
+    border-radius: 0 26px 0 0;
+}
+.registration li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.registration li:last-child {
+    border-left: 1px solid grey;
+}
+
+.nav li a.active,
+.nav li a:hover,
+.registration li a.active,
+.registration li a:hover,
+.sidebar-title {
+    color: #03a7fe;
+}
+
+
+
+
+/*----------------------------------------------- main area ------------------------------------*/
+
+.main {
+    padding: 20px 0 100px;
+    overflow: hidden;
+}
+
+
+/*----------------------sidebar-------------------------*/
+
+.sidebar {
+    float: left;
+    width: 230px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.sidebar h3{
+    font-size: 22px; 
+}
+
+.sidebar h3:after {
+    content: url(../images/category_arrow.png);
+    position: absolute;
+    left: 112px;
+    top: -2px;
+}
+
+.category-list {
+    margin-top: 30px;
+}
+
+.category-list li {
+    color: #848585;
+    font-size: 14px;
+    border-top: 1px solid grey;
+    padding: 8px 23px;
+}
+
+.category-list li:first-child {
+    border-top: none;
+}
+
+.category-list li:before {
+    content: url(../images/arrow.png);
+    position: absolute;
+    left: 0;
+}
+
+
+#rss {
+    margin-top:50px; 
+    padding: 30px 64px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#rss a {
+    background: none;
+    color: grey;
+    font-size: 18px;
+    border: 3px solid #ff9600;
+    border-radius: 20px;
+    width: 60px;
+    padding: 2px 15px;
+}
+
+#rss a:hover, .fa-rss {
+  color: #ff9600;
+}
+
+
+ .emblem-company li {
+    margin: 30px 0 0 50px;
+    filter: url(#gray);  /* Firefox 4+ */
+    filter: gray; /* IE 5+ */
+    -webkit-filter: url(#gray); /* Chrome ?? */
+    -webkit-filter: grayscale(1); /* Chrome 18+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(grayscale=1)"; /* new IE */
+}
+
+.emblem-company li:hover {
+    filter: none;
+    -webkit-filter: none;
+    -ms-filter: none;
+}
+
+
+
+/*----------------------content----------------*/
+
+.content {
+	overflow: hidden;
+}
+
+.content img {
+    padding: 0 20px 0 10px;
+    float: left;
+} 
+
+h1 {
+    font-size: 28px;
+    padding: 26px 0;
+    border-bottom: 1px solid #03a7fe;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    color: #848585;
+    line-height: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #03a7fe;
+    padding-bottom: 10px;
+}
+
+.list-company>li {
+    overflow: hidden;
+    border-bottom: 1px solid #03a7fe;
+    padding: 15px 0 20px;
+}
+
+
+.about-company {
+    float: left;
+    width: 395px;
+}
+
+.characteristics-companies li {
+    font-size: 13px;
+    background-color: #dfe5e6;
+    padding: 5px;
+    color: #636464;
+    margin-bottom: 4px;
+}
+
+.characteristics-companies li:nth-child(2) {
+    overflow: hidden;
+}
+
+.characteristics-companies a {
+    width: 176px;
+    float: right;
+    color: blue;
+}
+
+ul.programmin, .characteristics-companies span {
+    display: inline-block;
+    width: 176px;
+    float: right;
+    color: black;
+}
+
+ul.programmin li {
+    display: inline;
+    padding: 0;
+    color: black;
+}
+
+li.connect, li.ceo {
+    overflow: hidden;
+    margin: 0;
+}
+
+li.grey-fon {
+    background-color: #eef1f2;
+}
+
+.fa {
+    padding: 0 5px 0 0;
+    font-weight: bold;
+}
+
+.connect i {
+    color: #6c6c6c;
+}
+/*------------------ footer area --------------------*/
+
+.footer {
+    font-size: 10px;
+    color: #848585;
+    font-weight: bold;
+    border-top: 1px solid grey;
+    padding: 0 25px 30px 250px;
+}
+
+.footer-info {
+    padding: 12px 15px;
+    background-color: #d9dada;
+    border-radius: 0 0 25px 25px;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer img {
+    float: right;
+    background-color: rgba(217, 218, 218, 0.3);
+}

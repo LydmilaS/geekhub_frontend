@@ -1,0 +1,199 @@
+/*--------------------------------------------  fonts  -------------------------------------*/
+/* font-family: "RalewayRegular"; */
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+    url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayThin"; */
+@font-face {
+    font-family: "RalewayThin";
+    src: url("../fonts/RalewayThin/RalewayThin.eot");
+    src: url("../fonts/RalewayThin/RalewayThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayThin/RalewayThin.woff") format("woff"),
+    url("../fonts/RalewayThin/RalewayThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayExtraLight"; */
+@font-face {
+    font-family: "RalewayExtraLight";
+    src: url("../fonts/RalewayExtraLight/RalewayExtraLight.eot");
+    src: url("../fonts/RalewayExtraLight/RalewayExtraLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayExtraLight/RalewayExtraLight.woff") format("woff"),
+    url("../fonts/RalewayExtraLight/RalewayExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayLight"; */
+@font-face {
+    font-family: "RalewayLight";
+    src: url("../fonts/RalewayLight/RalewayLight.eot");
+    src: url("../fonts/RalewayLight/RalewayLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayLight/RalewayLight.woff") format("woff"),
+    url("../fonts/RalewayLight/RalewayLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayMedium"; */
+@font-face {
+    font-family: "RalewayMedium";
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot");
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayMedium/RalewayMedium.woff") format("woff"),
+    url("../fonts/RalewayMedium/RalewayMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewaySemiBold"; */
+@font-face {
+    font-family: "RalewaySemiBold";
+    src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot");
+    src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"),
+    url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayBold"; */
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/RalewayBold/RalewayBold.eot");
+    src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayBold/RalewayBold.woff") format("woff"),
+    url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayExtraBold"; */
+@font-face {
+    font-family: "RalewayExtraBold";
+    src: url("../fonts/RalewayExtraBold/RalewayExtraBold.eot");
+    src: url("../fonts/RalewayExtraBold/RalewayExtraBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayExtraBold/RalewayExtraBold.woff") format("woff"),
+    url("../fonts/RalewayExtraBold/RalewayExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RalewayBlack"; */
+@font-face {
+    font-family: "RalewayBlack";
+    src: url("../fonts/RalewayBlack/RalewayBlack.eot");
+    src: url("../fonts/RalewayBlack/RalewayBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayBlack/RalewayBlack.woff") format("woff"),
+    url("../fonts/RalewayBlack/RalewayBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ProximaNovaRegular"; */
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+    font-family: "ProximaNovaLight";
+    src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot");
+    src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaLight/ProximaNovaLight.woff") format("woff"),
+    url("../fonts/ProximaNovaLight/ProximaNovaLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ProximaNovaBlack"; */
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
+    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
+    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icons/icomoon.eot?7c1w93');
+  src:url('../fonts/icons/icomoon.eot?7c1w93#iefix') format('embedded-opentype'),
+    url('../fonts/icons/icomoon.ttf?7c1w93') format('truetype'),
+    url('../fonts/icons/icomoon.woff?7c1w93') format('woff'),
+    url('../fonts/icons/icomoon.svg?7c1w93#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-activity:before {
+  content: "\e902";
+}
+.icon-atom:before {
+  content: "\e903";
+}
+.icon-branding:before {
+  content: "\e904";
+}
+.icon-design:before {
+  content: "\e905";
+}
+.icon-graduation-cap:before {
+  content: "\e906";
+}
+.icon-left-arrow:before {
+  content: "\e907";
+}
+.icon-logo-footer:before {
+  content: "\e908";
+}
+.icon-portfolio:before {
+  content: "\e909";
+}
+.icon-right-arrow:before {
+  content: "\e90a";
+}
+.icon-rocket:before {
+  content: "\e90b";
+}
+.icon-search:before {
+  content: "\e900";
+}
+.icon-menu:before {
+  content: "\e901";
+}
+.icon-cart:before {
+  content: "\e90c";
+}
