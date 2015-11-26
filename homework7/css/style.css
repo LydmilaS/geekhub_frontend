@@ -1,0 +1,403 @@
+body {
+font-family: 'Roboto Slab', serif;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+	min-width: 1170px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*----------------------------------- header ---------------------------*/
+
+header {
+	background-color: #edeff1;
+	padding: 49px 0;
+	overflow: hidden;
+	min-width: 1170px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo h1 {
+	width: 157px;
+	height: 28px;
+	color: #31353e;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+.logo span {
+	width: 155px;
+	color: #dd4b2b;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+header ul {
+	float: right;
+	width: 627px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #31353e;
+}
+
+header li {
+	display: inline-block;
+}
+
+ header a {
+ 	padding: 5px 15px;
+ }
+
+.active, nav a:hover {
+	width: 144px;
+	height: 49px;
+	background-color: #dd4b2b;
+	border-radius: 25px;
+	color:white;
+}
+/*--------------------------- main -------------------------------------*/
+
+.main {
+	background: url(../images/bac-section-main.jpg) center no-repeat;
+	text-align: center;
+	background-size: cover;
+	padding: 450px 0 120px;
+	overflow: hidden;
+	min-width: 1170px;
+}
+
+.main h1, 
+.main span {
+	font-size: 72px;
+	font-weight: 300;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	color: white;
+	line-height: 48px;
+}
+
+.main span {
+	font-size: 22px;
+	display: block;
+	padding-bottom: 122px;
+}
+
+
+.main li {
+	width: 320px;
+	float: left;
+	display: inline-block;
+	color: white;
+	padding: 0 34px 50px;
+}
+
+.main h3 {
+	padding: 28px 0;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.main p {
+	width: 303px;
+	color: white;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.main a {
+	color: #612316;
+	width: 92px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	display: block;
+	background-color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 20px 60px;
+	clear: both;
+	-webkit-border-radius: 56px;
+	        border-radius: 56px;
+	margin: 0 auto;
+}
+
+.main a:hover {
+	background-color: #d75d0e;
+	color: white;
+}
+
+/*----------------------------------- our-news ---------------------------*/
+
+.our-news {
+	background-color: #edeff1;
+	text-align: center;
+	padding: 100px 0;
+	overflow: hidden;
+	min-width: 1170px;
+}
+
+.our-news h2 {
+	color: #31353e;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+	padding-bottom: 70px;
+}
+
+.our-news li {
+	width: 371px;
+	display: inline-block;
+	float: left;
+}
+
+.our-news li:nth-child(2) {
+	margin: 0 28px;
+}
+
+.our-news h3 {
+    font-size: 24px;
+    padding: 30px 0 15px;
+    font-weight: 700;
+    color: #63666e;
+}
+
+.our-news p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #31353e;
+    line-height: 30px;
+    padding: 0 20px 39px;
+}
+
+.our-news a {
+	width: 68px;
+	color: #4e5159;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	display: block;
+	background-color: white;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 20px 54px;
+	clear: both;
+	-webkit-border-radius: 56px;
+	        border-radius: 56px;
+	margin: 0 auto;
+}
+
+.our-news a:hover {
+	background-color: #dd4b2b;
+	color: white;
+}
+
+/*----------------------------------- newslette ---------------------------*/
+
+.newslette {
+	background: url(../images/bac-newslette.jpg) center no-repeat;
+	background-size: cover;
+	padding: 80px 0;
+	text-align: center;
+	min-width: 1170px;
+}
+
+.newslette h2 {
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+.newslette p {
+	width: 533px;
+	color: white;
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0 0 44px;
+}
+
+form li {
+	display: inline-block;
+}
+
+form li:first-child {
+	float: left;
+    padding: 12px 33px;
+    width: 120px;
+}
+
+
+
+form ul {
+	width: 509px;
+	height: 54px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 27px;
+	margin: 0 auto;
+}
+
+input[type="email"] {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	font-size: 20px;
+	color: white;
+}
+
+input[type="submit"] {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	width: 64px;
+	color: #612316;
+	font-family: RobotoSlab;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+form li:nth-child(2) {
+    float: right;
+    background-color: white;
+    border-radius: 27px;
+    padding: 11px 70px;
+}
+
+form li:nth-child(2):hover {
+	background-color: #dd4b2b;
+	cursor: pointer;
+}
+
+
+/*----------------------------------- product ---------------------------*/
+
+.product {
+	padding: 65px 0 87px;
+	overflow: hidden;
+	min-width: 1170px;
+}
+
+.product h3 {
+	color: #191b29;
+	font-family: RobotoSlab;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+.product p {
+	color: #191b29;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 40px;
+}
+
+
+.product a {
+	color: white;
+	width: 92px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	display: block;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	padding: 18px 71px;
+	clear: both;
+	-webkit-border-radius: 56px;
+	        border-radius: 56px;
+}
+
+.about-product-left a {
+	background-color: #d75d0e;
+}
+
+.about-product-right a {
+	background-color: #4b4e73;
+}
+
+.about-product-left {
+	float: left;
+	width: 575px;
+}
+
+.about-product-right {
+	float: right;
+	width: 575px;
+}
+
+article {
+	margin-bottom: 30px;
+	clear: both;
+}
+
+/*----------------------------------- list-bottom-nav ---------------------------*/
+
+.list-bottom-nav {
+	background-color: #d75d0e;
+	overflow: hidden;
+	padding: 98px 0 80px;
+	text-align: center;
+	min-width: 1170px;
+}
+
+.list-bottom-nav ul {
+	float: left;
+	width: 141px;
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+	margin: 0 124px;
+}
+
+.list-bottom-nav a:hover,
+footer a:hover {
+	text-decoration: underline;
+}
+/*----------------------------------- footer ---------------------------*/
+
+
+footer {
+	background: url(../images/bac-newslette.jpg) center no-repeat;
+	background-size: cover;
+	padding: 80px 0;
+	text-align: center;
+	min-width: 1170px;
+}
+
+footer p {
+	width: 666px;
+	height: 41px;
+	color: white;
+	font-family: 'ProximaNova';
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 300;
+	margin: 0 auto;
+}
+
+footer a {
+	font-weight: 700;
+}
