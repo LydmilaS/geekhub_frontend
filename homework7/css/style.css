@@ -296,6 +296,11 @@ form li:nth-child(2):hover {
 	min-width: 1170px;
 }
 
+.product img {
+	width: 48%;
+	height: auto;
+}
+
 .product h3 {
 	color: #191b29;
 	font-family: RobotoSlab;
