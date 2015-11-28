@@ -40,7 +40,9 @@ header {
 	background-color: #edeff1;
 	padding: 46px 0 47px;
 	overflow: hidden;
+	width: 100%;
 	min-width: 1170px;
+	position: fixed;
 }
 
 .logo {
@@ -82,14 +84,15 @@ header li {
 
  nav a {
  	padding: 15px;
+ 	border-radius: 25px;
  }
 
 .active, nav a:hover {
 	width: 144px;
 	height: 49px;
 	background-color: #dd4b2b;
-	border-radius: 25px;
 	color:white;
+	transition: .5s;
 }
 /*--------------------------- main -------------------------------------*/
 
@@ -221,7 +224,7 @@ header li {
 	display: block;
 	background-color: white;
 	border: 1px solid rgba(255, 255, 255, 0.5);
-	padding: 21px 54px;
+	padding: 21px 52px 22px 56px;
 	clear: both;
 	-webkit-border-radius: 56px;
 	        border-radius: 56px;
@@ -411,7 +414,7 @@ footer a:hover {
 footer {
 	background: url(../images/bac-newslette.jpg) center no-repeat;
 	background-size: cover;
-	padding: 80px 0;
+	padding: 90px 0 243px;
 	text-align: center;
 	min-width: 1170px;
 }
