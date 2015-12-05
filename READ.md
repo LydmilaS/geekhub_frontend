@@ -11,3 +11,4 @@ homework5 (<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/
 homework6 (<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">)
 
 homework7 (<!DOCTYPE html>), page-link http://lydmilas.github.io/geekhub_frontend/homework7/index.html
+homework8 (<!DOCTYPE html>), page-link http://lydmilas.github.io/geekhub_frontend/homework8/index.html

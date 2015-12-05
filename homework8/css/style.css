@@ -1,0 +1,429 @@
+/*--------------------- basic --------------------*/
+body{
+    font-family: "OpenSansBold";
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.line {
+    background-color: #39c9da;
+    width: 99px;
+    height: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #a8a8a8;
+    font-size: 14px;
+    font-family: "OpenSansRegular";
+    line-height: 20px;
+}
+
+.wrapper > p {
+    width: 486px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #504f50;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 60px 0;
+    line-height: 45px;
+    text-align: center;
+    min-width: 1170px;
+    border-bottom: 1px solid lightgrey;
+}
+
+header {
+    overflow: hidden;
+}
+/*--------------------- main --------------------*/
+#main{
+    background: url(../images/bac-section1.jpg) center no-repeat;
+    background-size: cover;
+    padding: 35px 0 100px;
+    color: white;
+}
+
+.logo a {
+    float: left;
+}
+
+.logo h1 {
+    color: #39c9da;
+    font-size: 30px;
+    display: inline-block;
+    text-transform: none;
+}
+
+.logo span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+nav {
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 14px;
+}
+
+nav a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #39c9da;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-home {
+    width: 530px;
+    margin: 180px auto 0;
+    text-align: center;
+}
+
+.text-home h1 {
+    color: white;
+    font-size: 33px;
+}
+
+.text-home a, 
+.about-info a,
+button[type="submit"] {
+    color: white;
+    font-size: 20px;
+    background-color: #39c9da;
+    border-radius: 4px;
+    border: 1px solid #39c9da;
+    padding: 20px 41px;
+    line-height: 20px;
+    display: block;
+    width: 120px;
+    margin: 35px auto 0;
+    text-transform: uppercase;
+}
+
+.text-home a:hover, 
+.about-info a:hover,
+button[type="submit"]:hover {
+    background-color: white;
+    color: #39c9da;
+}
+/*--------------------- About Us --------------------*/
+
+#about-us {
+    overflow: hidden;
+    background-color: #fafafa;
+}
+
+article {
+    text-align: left;
+}
+
+article img {
+    float: left;
+    margin: 55px 30px 0 0;
+}
+
+article h2 {
+    color: #504f50;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+article p {
+    margin: 20px 0;
+}
+
+.about-info {
+    overflow: hidden;
+}
+
+.about-info a {
+    padding: 20px 36px;
+    display: block;
+    width: 134px;
+    margin: 0;
+}
+/*--------------------- Portfolio --------------------*/
+#portfolio {
+    background-color: #f4f4f4;
+    border: 1px solid #e8e8e8;
+}
+
+figure {
+    margin-bottom: 35px;
+    display:inline-block;
+}
+
+.projects figure:nth-child(2),  
+.projects figure:nth-child(5){
+    margin: 0 25px 35px;
+}
+
+.img {
+    position: relative;
+    height: 300px;
+}
+
+.read-more {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 65, 65, 0.83);
+    opacity: 0;
+}
+
+.read-more a {
+    border: 1px solid white;
+    padding: 15px 36px;
+    line-height: 20px;
+    position: absolute;
+    top: 125px;
+    left: 100px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.read-more a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.img:hover .read-more {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.name-project {
+    background-color: white;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    padding: 15px 25px;
+    line-height: 20px;
+}
+
+.name-project a {
+    color: #504f50;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.name-project a:hover {
+    text-decoration: underline;
+}
+
+.name-project span {
+    float: right;
+    color: #aba7ab;
+    font-size: 12px;
+    font-family: "OpenSansRegular";
+    line-height: 20px;
+}
+
+/*--------------------- Services --------------------*/
+#our-services {
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.item .line {
+    width: 74px;
+    height: 1px;
+    background-color: #c2c2c2;
+    margin: 0 auto;
+}
+
+.item p {
+    margin: 30px 0 20px;
+}
+
+.item h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.item  {
+    margin-right: 24px;
+    padding: 20px;
+    width: 274px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    float: left;
+    position: relative;
+    background-color: #FFF; 
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+.item:hover {
+    background-color: #39c9da;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.item:hover p,
+.item:hover .fa,
+.item:hover h2 {
+    color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
+}
+
+
+.item a {
+    width: 70px;
+    color: white;
+    font-size: 14px;
+    font-family: "OpenSansRegular";
+    line-height: 20px;
+    padding: 10px 28px;
+    background-color: #4b4a4b;
+    border-radius: 2px;
+}
+
+.item:hover a {
+    background-color: white;
+    color: black;
+    -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
+}
+
+.fa {
+    font-size: 45px;
+    color: #39c9da;
+}
+
+.services .item:last-child {
+    margin-right: 0;
+}
+
+/*--------------------- Contact Us --------------------*/
+#contact {
+    background-color: #f4f4f4;
+    border: 1px solid #e8e8e8;
+}
+
+.contact-info {
+    width: 560px;
+    float: left;
+    text-align: left;
+}
+
+
+.contact-info h2 {
+    color: #504f50;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.contact-info > p {
+    color: #a8a8a8;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px 0 22px;
+}
+
+.adress h3 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+form {
+    float: right;
+    width: 572px;
+}
+
+form li {
+    display: inline-block;
+}
+
+
+input,
+textarea{
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    margin: 20px 0;
+    padding: 16px 0 16px 13px;
+    box-sizing: border-box;
+}
+
+input {
+    width: 270px;
+}
+
+input[type="email"]{
+    margin-left: 26px;
+}
+
+.forms li:nth-child(3),
+.forms li:nth-child(4),
+input.subject,
+textarea,
+input.subject {
+    width: 100%;
+}
+
+button[type="submit"] {
+    float: right;
+    margin: 10px 0;
+    width: 200px;
+    cursor: pointer;
+    font-family: "OpenSansBold";
+}
+/*--------------------- footer --------------------*/
+
+footer{
+    background: #39c9da;
+    text-align: center;
+    padding: 20px 0 15px;
+}
+
+footer p,
+footer a {
+    color: #fff;
+    font-size: 14px;
+    font-family: "OpenSansRegular";
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
