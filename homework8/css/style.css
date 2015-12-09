@@ -9,11 +9,7 @@ body{
     overflow: hidden;
 }
 
-.line {
-    background-color: #39c9da;
-    width: 99px;
-    height: 2px;
-}
+
 
 a {
     text-decoration: none;
@@ -148,6 +144,18 @@ article img {
 article h2 {
     color: #504f50;
     font-size: 14px;
+    position: relative;
+}
+
+.about-info h2:after,
+.contact-info  h2:after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: #39c9da;
+    width: 99px;
+    height: 2px;
 }
 
 article p {
@@ -204,6 +212,7 @@ figure {
     left: 100px;
     color: white;
     font-size: 20px;
+    text-transform: none;
     
 }
 
@@ -252,7 +261,11 @@ figure {
     overflow: hidden;
 }
 
-.item .line {
+.item h2:after {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 80px;
     width: 74px;
     height: 1px;
     background-color: #c2c2c2;
@@ -264,6 +277,7 @@ figure {
 }
 
 .item h2 {
+    position: relative;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -350,6 +364,7 @@ figure {
     line-height: 20px;
     text-transform: uppercase;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .contact-info > p {
