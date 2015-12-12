@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+
+
+/* font-family: "ProximaNovaBold"; */
+@font-face {
+    font-family: "ProximaNovaLight";
+    src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot");
+    src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaLight/ProximaNovaLight.woff") format("woff"),
+    url("../fonts/ProximaNovaLight/ProximaNovaLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
