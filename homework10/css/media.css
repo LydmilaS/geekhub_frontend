@@ -1,0 +1,41 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+	html {
+		font-size: 50%;
+	}
+
+	.editor h1 {
+		font-size: 4rem;
+	}
+	
+	nav {
+		display: none;
+	}
+
+	header .logo a, .logo-footer a {
+		margin-right: 36px;
+	}
+	
+	.pricing .item,
+	.pricing .item:last-child {
+		width: 90%;
+		margin: 80px auto;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+	.features {
+		overflow: hidden;
+	}
+
+	html {
+		font-size: 50%;
+	}
+}
+@media screen and (min-width: 768px) {
+
+	.m-col-3 {
+		width: 24%;
+	}
+	
+}
