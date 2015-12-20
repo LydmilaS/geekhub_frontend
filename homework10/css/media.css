@@ -5,10 +5,6 @@
 	.editor h1 {
 		font-size: 3.5rem;
 	}
-	
-	nav {
-		display: none;
-	}
 
 	header .logo a, .logo-footer a {
 		margin-right: 36px;
@@ -19,14 +15,22 @@
 		width: 66.66666666666667%;
 		margin: 80px auto;
 	}
+}
 
+}
+@media screen and (min-width: 481px)  and (max-width: 767px) {
+
+	
+
+	.xs-col-12 {
+		width: 45%;
+	}
+	
 	
 }
 
 @media screen and (max-width: 767px) {
-	.features {
-		overflow: hidden;
-	}
+	
 
 	.hero h1 {
 		font-size: 6rem;
@@ -42,11 +46,19 @@
 	input.button {
     padding: 16px 30px;
 }
+
+	nav {
+		display: none;
+	}
+
+	.features h1 {
+		text-align: center;
+	}
 }
+
 @media screen and (min-width: 768px) {
 
-	.m-col-3 {
+	.pricing .m-col-3 {
 		width: 24%;
 	}
-	
 }

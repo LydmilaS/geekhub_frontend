@@ -2,12 +2,16 @@
 
 html {
     font-size: 62.5%;
+    -ms-overflow-x: hidden;
+        overflow-x: hidden;
 }
 
 body {
     font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    -ms-overflow-x: hidden;
+        overflow-x: hidden;
 }
 
 a {
@@ -74,9 +78,12 @@ header nav a {
 
 header nav a:hover {
     color: #8d81ac;
-    
-
 }
+
+.logo {
+    text-align: left;
+}
+
 header .logo a,
 .logo-footer  a {
     font-family: 'Lato', sans-serif;
@@ -84,7 +91,7 @@ header .logo a,
     font-size: 2.4rem;
     line-height: 1.6rem;
     color: #333;
-    margin: 12px 108px 12px 0;
+    margin: 12px 0 0 64px;
     display: block;
 }
 
@@ -234,8 +241,7 @@ header .logo span,
 }
 
 .features img {
-    float: right;
-    margin: 0 -45px -112px 0;
+    margin-bottom: -130px;
     box-shadow: 0 0 25px rgba(0, 5, 5, 0.3);
 }
 
@@ -268,7 +274,7 @@ header .logo span,
 /*----------------------------------------------  social -------------------------------*/
 
 .social {
-    padding: 7% 0;
+    padding: 100px 0;
     text-align: center;
 }
 
