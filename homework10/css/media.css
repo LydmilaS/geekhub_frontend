@@ -17,13 +17,10 @@
 	}
 }
 
-}
 @media screen and (min-width: 481px)  and (max-width: 767px) {
 	.xs-col-12 {
 		width: 45%;
-	}
-	
-	
+	}	
 }
 
 @media screen and (max-width: 767px) {
@@ -40,8 +37,8 @@
 	}
 
 	input.button {
-    padding: 16px 30px;
-}
+	    padding: 16px 30px;
+	}
 
 	nav {
 		display: none;
@@ -52,9 +49,9 @@
 	}
 
 	.talk > div {
-    margin-top: 50px;
-    padding: 0 62px;
-}
+	    margin-top: 50px;
+	    padding: 0 62px;
+	}
 
 	.social p {
 		font-size: 1.7rem;
@@ -62,9 +59,9 @@
 
 
 	.pricing .xs-col-12{
-    width: 66.66666666666667%;
-    margin: 46px auto 14px;
-}
+	    width: 66.66666666666667%;
+	    margin: 46px auto 14px;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
@@ -76,21 +73,33 @@
 	nav {
 		display: none;
 	}
-
-
-
-
 }
 
 
 @media screen and (min-width: 980px) {
 
+	header nav a {
+		margin-right: 23px;
+	}
+
+	header .logo + div {
+		padding: 0;
+	}
 	.pricing .m-col-3 {
-		width: 24%;
+	    width: 23.8%;
 	}
 
 	.pricing .item:last-child {
-    margin-right: 0;
-}
+	    margin-right: 0;
+	}
+
+	input[type="email"]{
+		width: 290px;
+	}
 }
 
+@media screen and (min-width: 1200px) {
+	.pricing .m-col-3 {
+		width: 24%;
+	}
+}

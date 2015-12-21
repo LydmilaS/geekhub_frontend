@@ -412,12 +412,24 @@ header .logo span,
             background-size: cover;
 }
 
-.people, 
-.pricing {
+ 
+.pricing,
+.people {
     padding: 100px 0;
     text-align: center;
+    position: relative;
 }
 
+.people {
+    padding: 100px 0 0;
+}
+
+
+.people .container:after {
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    width: 80%;
+    margin: 100px auto 0;
+}
 .people .talk > div > div {
     height: 70px;
     display: flex;
