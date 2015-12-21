@@ -1,4 +1,19 @@
 /*-------------------------------- basic ---------------------------------------*/
+.clearfix:before,  
+.clearfix:after {  
+    content: " ";  
+    display: table;  
+}  
+.clearfix:after {  
+    clear: both;  
+}  
+.clearfix {  
+    *zoom: 1;  
+} 
+
+nav img#pull {  
+    display: none;  
+}
 
 html {
     font-size: 62.5%;
@@ -115,7 +130,7 @@ header .logo span,
 /*---------------------------------------- hero -----------------------------------*/
 
 .hero {
-    position: relative;
+   /* position: relative;*/
     padding: 108px 0 538px;
     text-align: center;
     background: url(../images/hero-fon.jpg) center no-repeat;
@@ -126,7 +141,7 @@ header .logo span,
 
 .download {
     position: absolute;
-    top: 96%;
+    top: -36px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -169,6 +184,7 @@ header .logo span,
 /*------------------------------------------------- editor ------------------------------------*/
 
 .editor {
+    position: relative;
     text-align: center;
     padding: 130px 0 70px;
 }
@@ -195,7 +211,7 @@ header .logo span,
     margin: 10px 5px;
 }
 
-.editor a {
+.editor ul a {
     padding: 4px 5px 4px 0;
     border: 1px solid grey;
     border-radius: 2px;
@@ -211,7 +227,7 @@ header .logo span,
     border-right: 1px solid grey;
 }
 
-.editor a:hover span {
+.editor ul a:hover span {
    background-color: lightgrey;
 }
 
