@@ -1,28 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
-
-
-
-/* font-family: "ProximaNovaBold"; */
-@font-face {
-    font-family: "ProximaNovaLight";
-    src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot");
-    src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ProximaNovaLight/ProximaNovaLight.woff") format("woff"),
-    url("../fonts/ProximaNovaLight/ProximaNovaLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+html {
+	font-size: 62.5%;
 }
 
-
 body {
-font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 .wrapper {
 	width: 1170px;
 	margin: 0 auto;
-	min-width: 1170px;
+	overflow: hidden;
 }
 
 ul li {
@@ -41,58 +28,54 @@ header {
 	padding: 46px 0 47px;
 	overflow: hidden;
 	width: 100%;
-	min-width: 1170px;
 	position: fixed;
+	z-index: 2;
 }
 
 .logo {
 	float: left;
-	height: 54px;
+	line-height: 3.6rem;
 }
 
 .logo h1 {
-	width: 157px;
-	height: 28px;
 	color: #31353e;
-	font-size: 36px;
+	font-size: 3.6rem;
 	font-weight: 700;
-	line-height: 36px;
+	
 }
 
 .logo span {
 	width: 155px;
 	color: #dd4b2b;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 36px;
+}
+
+nav {
+	overflow: hidden;
+	text-align: right;
 }
 
 header ul {
-	float: right;
-	width: 627px;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 24px;
+	line-height: 2.4rem;
 	color: #31353e;
-	padding-top: 19px;
+	padding-top: 5px;
 }
 
 header li {
 	display: inline-block;
-	padding: 0;
+	padding: 15px;
+	border-radius: 25px;
 }
 
- nav a {
- 	padding: 15px;
- 	border-radius: 25px;
- }
 
-.active, nav a:hover {
-	width: 144px;
-	height: 49px;
+.active, nav li:hover  {
 	background-color: #dd4b2b;
 	color:white;
 	transition: .5s;
+	
 }
 /*--------------------------- main -------------------------------------*/
 
@@ -102,22 +85,21 @@ header li {
 	background-size: cover;
 	padding: 450px 0 120px;
 	overflow: hidden;
-	min-width: 1170px;
 }
 
 .main h1 {
-	font-size: 72px;
+	font-size: 7.2rem;
 	font-weight: 300;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 	color: white;
-	line-height: 48px;
+	line-height: 4.8rem;
 }
 
 .main span {
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 	color: white;
-	line-height: 48px;
-	font-size: 30px;
+	line-height: 4.8rem;
+	font-size: 3rem;
 	display: block;
 	padding-bottom: 122px;
 	font-weight: 700;
@@ -125,7 +107,10 @@ header li {
 
 
 .main li {
-	width: 320px;
+	width: 33.3%;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 	float: left;
 	display: inline-block;
 	color: white;
@@ -134,26 +119,25 @@ header li {
 
 .main h2 {
 	padding: 28px 0;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
-	line-height: 24px;
+	line-height: 2.4rem;
 }
 
 .main p {
-	width: 303px;
 	color: white;
 	font-family: Roboto;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 3rem;
 }
 
 .main a {
 	color: #612316;
 	width: 92px;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 3rem;
 	display: block;
 	background-color: white;
 	border: 1px solid rgba(255, 255, 255, 0.5);
@@ -176,30 +160,34 @@ header li {
 	text-align: center;
 	padding: 100px 0;
 	overflow: hidden;
-	min-width: 1170px;
-	line-height: 30px;
+	line-height: 3rem;
+}
+
+.our-news img {
+	width: 100%;
+	height: auto;
 }
 
 .our-news h1 {
 	color: #31353e;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
-	line-height: 24px;
+	line-height: 2.4rem;
 	padding-bottom: 70px;
 }
 
 .our-news li {
-	width: 371px;
+	width: 32%;
 	display: inline-block;
 	float: left;
 }
 
 .our-news li:nth-child(2) {
-	margin: 0 28px;
+	margin: 0 2%;
 }
 
 .our-news h2 {
-    font-size: 24px;
+    font-size: 2.4rem;
     padding: 30px 0 15px;
     font-weight: 700;
     color: #63666e;
@@ -207,10 +195,10 @@ header li {
 
 .our-news p {
 	font-family: Roboto;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 300;
     color: #31353e;
-    line-height: 30px;
+    line-height: 3rem;
     padding: 0 20px 39px;
 }
 
@@ -218,9 +206,9 @@ header li {
 	width: 72px;
 	color: #4e5159;
 	font-family: Roboto;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
-	line-height: 30px;
+	line-height: 3rem;
 	display: block;
 	background-color: white;
 	border: 1px solid rgba(255, 255, 255, 0.5);
@@ -243,115 +231,106 @@ header li {
 	background-size: cover;
 	padding: 80px 0;
 	text-align: center;
-	min-width: 1170px;
 }
 
 .newslette h1 {
 	color: white;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
-	line-height: 48px;
+	line-height: 4.8rem;
 }
 
 .newslette p {
-	width: 533px;
 	color: white;
 	font-family: Roboto;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-weight: 300;
-	line-height: 24px;
+	line-height: 2.4rem;
 	margin: 0 auto;
 	padding: 0 0 44px;
 }
 
-form li {
-	display: inline-block;
-}
-
-form li:first-child {
-	float: left;
-    padding: 12px 33px;
-    width: 120px;
-}
-
-
-
-form ul {
-	width: 509px;
-	height: 54px;
-	background-color: rgba(255, 255, 255, 0.2);
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	border-radius: 27px;
+.newslette form {
+	width: 510px;
+	height: 52px;
+	position: relative;
 	margin: 0 auto;
+	border: 1px solid rgba(255,255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.2);
+	-webkit-border-radius: 27px;
+	        border-radius: 27px;
+	z-index: 1;
 }
+
 
 input[type="email"] {
-	background-color: rgba(255, 255, 255, 0);
+	background: transparent;
 	border: none;
-	font-size: 20px;
+	font-size: 2rem;
 	color: white;
+	position: absolute;
+	top: 0;
+	left: 30px;
+	padding: 15px 0;
+	width: 287px;
 }
 
-input[type="submit"] {
-	background-color: rgba(255, 255, 255, 0);
-	border: none;
-	width: 64px;
-	color: #612316;
+button[type="submit"] {
 	font-family: RobotoSlab;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 30px;
-}
-
-form li:nth-child(2) {
-    float: right;
-    background-color: white;
+	line-height: 3rem;
+	background: white;
+	border: none;
+	color: #612316;
     border-radius: 27px;
     padding: 11px 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-form li:nth-child(2):hover {
+button[type="submit"]:hover {
 	background-color: #dd4b2b;
 	cursor: pointer;
 }
-
 
 /*----------------------------------- product ---------------------------*/
 
 .product {
 	padding: 65px 0 87px;
 	overflow: hidden;
-	min-width: 1170px;
 }
 
 .product img {
-	width: 48%;
+	width: 49%;
 	height: auto;
 }
 
 .product h2 {
 	color: #191b29;
-	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
-	line-height: 48px;
+	line-height: 4.8rem;
 }
 
 .product p {
 	color: #191b29;
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 300;
-	line-height: 30px;
-	padding: 0 20px 40px 0;
+	line-height: 3rem;
+	padding: 0 0 20px;
 }
 
 
 .product a {
+	margin-top: 20px;
 	color: white;
 	width: 92px;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 3rem;
 	display: block;
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	padding: 18px 71px;
@@ -360,25 +339,31 @@ form li:nth-child(2):hover {
 	        border-radius: 56px;
 }
 
-.about-product-left a {
+.about-product-left a,
+.about-product-right a:hover {
 	background-color: #d75d0e;
 }
 
+.about-product-left a:hover,
 .about-product-right a {
 	background-color: #4b4e73;
 }
 
+
 .about-product-left {
 	float: left;
-	width: 575px;
+	width: 49%;
+	margin-right: 2%;
 }
 
 .about-product-right {
 	float: right;
-	width: 575px;
+	width: 49%;
+	margin-left: 2%;
 }
 
 article {
+	overflow: hidden;
 	margin-bottom: 30px;
 	clear: both;
 }
@@ -390,18 +375,18 @@ article {
 	overflow: hidden;
 	padding: 98px 0 80px;
 	text-align: center;
-	min-width: 1170px;
 }
 
 .list-bottom-nav ul {
 	float: left;
-	width: 141px;
+	width: 31%;
 	color: white;
 	font-family: Roboto;
-	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 400;
-	line-height: 36px;
-	margin: 0 124px;
+	line-height: 3.6rem;
+	margin: 0 1%;
+	
 }
 
 .list-bottom-nav a:hover,
@@ -416,16 +401,13 @@ footer {
 	background-size: cover;
 	padding: 90px 0 243px;
 	text-align: center;
-	min-width: 1170px;
 }
 
 footer p {
-	width: 666px;
-	height: 41px;
 	color: white;
 	font-family: "ProximaNovaLight";
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
 	font-weight: 300;
 	margin: 0 auto;
 }

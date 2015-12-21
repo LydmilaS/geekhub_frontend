@@ -1,25 +1,27 @@
 
 /*--------------------------------------------  wrapper  -------------------------------------*/
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "Raleway", sans-serif;
 }
 
 .wrapper {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 h2 {
     font-family: "RalewayExtraLight";
-    font-size: 60px;
+    font-size: 6rem;
     color: #576671;
     padding-bottom: 36px;
+    position: relative;
 }
 
-h3 {
-
-}
 .icon {
     display: block;
     width: 96px;
@@ -28,7 +30,7 @@ h3 {
     background: white;
     color: #17daa3;
     float: left;
-    margin-right: 30px; 
+    margin-right: 28px; 
 }
 
 p {
@@ -44,7 +46,7 @@ p {
 }
 
 .logo-name {
-    font-size: 34px;
+    font-size: 3.4rem;
     color: white;
     float: left;
 }
@@ -54,14 +56,17 @@ p {
 }
 
 .nav {
-    float: right;
+    overflow: hidden;
+    text-align: right;
+    padding-top: 10px;
 }
+
 
 .nav li {
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.4rem;
     padding-left: 50px
 }
 
@@ -97,7 +102,7 @@ p {
 
 .slider h1 {
     font-family: "RalewayThin";
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 100;
     padding-bottom: 30px;
 }
@@ -111,7 +116,7 @@ p {
 }
 
 .slider p {
-    font-size: 24px;
+    font-size: 2.4rem;
     padding-bottom: 66px;
 }
 
@@ -122,18 +127,12 @@ p {
     text-align: center;
 }
 
-.line {
-    border-top: 1px solid #17daa3;
-    width: 30px;
-    margin: 0 auto;
-}
-
 .about-us p,
 .our-services p,
 .team p,
 .pricing p {
     padding: 36px 0 135px;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #87949e;
 }
 
@@ -144,8 +143,8 @@ p {
 }
 
 .about-us h3 {
-    font-size: 30px;
-    margin: 82px auto 36px;
+    font-size: 3rem;
+    margin: 55px auto 0;
 }
 
 .about-us .button, 
@@ -183,7 +182,7 @@ p {
 .about-us-post i {
     display: inline-block;
     padding-top: 55px;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 .about-us-post a:hover {
@@ -204,7 +203,7 @@ p {
 .mac-text {
     width: 50%;
     float: right;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #87949e;
     line-height: 1.5;
 }
@@ -233,12 +232,12 @@ p {
     padding: 9% 0;
     background-size: cover;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #87949e;
 }
 
 .opinions-text img+p {
-    font-size: 30px;
+    font-size: 3rem;
     padding: 30px 0;
     color: white;
     font-family: "RalewayLight";
@@ -273,13 +272,13 @@ p {
 
 .about-service {
     float: left;
-    width: 75%;
+    width: 71%;
     text-align: left;
     line-height: 1.5;
 }
 
 .services h3 {
-    font-size: 58px;
+    font-size: 5.8rem;
 }
 
 .services li:nth-child(2n+1) {
@@ -293,7 +292,7 @@ p {
 .services i {
     display: inline-block;
     padding-top: 30px;
-    font-size: 37px;
+    font-size: 3.7rem;
 }
 
 /*---------------------------------------------  team  --------------------------------------*/
@@ -313,7 +312,7 @@ p {
 }
 
 .team-foto span {
-    font-size: 30px;
+    font-size: 3rem;
     color: white;
     opacity: 0;
 }
@@ -343,25 +342,39 @@ li.light-grey {
 }
 /*---------------------------------------------  pricing  --------------------------------------*/
 .pricing li {
-    width: 22%;
+    width: 23%;
     display: inline-block;
     float: left;
-    margin: 16px;
+    margin: 1%;
     background-color: white;
     border-radius: 7px;
     text-align: left;
 }
 
+.pricing h2:after,
+.team h2:after,
+.our-services h2:after,
+.about-us h2:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 48%;
+    background-color: #17daa3;
+    height: 1px;
+    width: 4%;
+    margin: 0 auto;
+}
+
 .name-purchase {
     color: #d6dade;
-    font-size: 18px;
+    font-size: 1.8rem;
     display: block;
     padding: 0 30px 50px;
 }
 
 .price {
     color: #17daa3;
-    font-size: 60px;
+    font-size: 6rem;
     display: block;
     padding: 30px ;
     font-family: "RalewayExtraLight"
@@ -370,7 +383,7 @@ li.light-grey {
 
 .info-pricing p {
     padding: 60px 30px;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #87949e;
     line-height: 2;
     border-top: 1px solid #87949e;
@@ -386,7 +399,7 @@ li.light-grey {
     text-decoration: none;
     color: white;
     width: 100%;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-family: "ProximaNovaBold";
@@ -407,7 +420,7 @@ li.light-grey {
 .map-text {
     width: 50%;
     float: left;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #87949e;
     line-height: 1.5;
 } 
@@ -449,7 +462,7 @@ li.light-grey {
 .footer-nav li {
     display: inline-block;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.4rem;
     padding-left: 50px
 }
 
