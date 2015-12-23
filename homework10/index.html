@@ -14,7 +14,7 @@
 	<script>
 	$(function() {
 			var pull 		= $('#pull');
-				menu 		= $('nav ul');
+				menu 		= $('#main-menu');
 				menuHeight	= menu.height();
 
 			$(pull).on('click', function(e) {
@@ -35,22 +35,35 @@
 <!-- header -->
 	<header>
 		<div class="container">
-			<div class="logo xs-col-6 m-col-4">
-				<img src="images/shape-1.png" alt="pencil"/>
-				<a href="#">Fork<span>io</span>
-				</a>
-			</div>
-			<div class="xs-col-6 m-col-8">
-				<a href="#" class="button small">Buy Now</a>
-				<nav class="clearfix">
-					<ul class="clearfix">
-						<li><a href="#">Overview</a></li>
-						<li><a href="#">About Fork</a></li>
-						<li><a href="#">Buying Options</a></li>
-						<li><a href="#">Support</a></li>
-					</ul>
-					<img src="images/menu.png" alt="#" id="pull"/>
-				</nav> 
+			<div class="row">
+				<div class="logo xs-col-4 m-col-2">
+					<img src="images/shape-1.png" alt="pencil"/>
+					<a href="#">Fork<span>io</span>
+					</a>
+				</div>
+				<div class="m-col-8">
+					<nav class="clearfix" id="main-menu">
+						<ul class="clearfix" >
+							<li class="active visible-xs visible-sm visible-md"><a href="#">Home</a></li>
+							<li><a href="#">Overview</a></li>
+							<li><a href="#">About Fork</a></li>
+							<li><a href="#">Buying Options</a></li>
+							<li><a href="#">Support</a></li>
+							<li class="social-links visible-xs visible-sm visible-md">
+				              <span>Follow Us</span>
+				              <ul>
+				                <li><a href="#"><i class="fa fa-github"></i></a></li>
+				                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				              </ul>
+				            </li>
+				        </ul>
+					</nav>
+				</div>
+				<div class="xs-col-8 m-col-2">
+					<img src="images/menu.png" alt="#" class="visible-xs visible-sm visible-md" id="pull"/>
+					<a href="#" class="button small">Buy now</a>
+				</div>
 			</div>
 		</div>
 	</header>

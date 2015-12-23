@@ -75,11 +75,9 @@ footer .logo-footer img {
     float: left;
 }
 
-header nav ul {
-    margin-top: 14px;
-}
 
-header nav ul li {
+
+header nav li {
     display: inline;
 } 
 
@@ -97,6 +95,11 @@ header nav a:hover {
 
 .logo {
     text-align: left;
+}
+
+#pull {
+    float: right;
+    margin: 8px 0 0 20px;
 }
 
 header .logo a,
