@@ -15,7 +15,7 @@
 		 width: 33.3333333%;
 	}
 
-	.about .our-statistic li {
+	/*.about .our-statistic li {
 		width: 50%;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
@@ -28,7 +28,7 @@
 
 	.about .our-statistic li:nth-child(2n) {
 		border-left: 0;
-	}
+	}*/
 
 }
 @media screen and (min-width: 480px) {
@@ -39,10 +39,6 @@
 
 	.pricing-item {
 		width: 48%;
-	}
-
-	.pricing-item:nth-child(2) {
-			margin-left: 2%;
 	}
 
 }
@@ -69,28 +65,26 @@
 
 	.blog .post {
 		width: 48%;
+		margin: 7px;
 	}
 
 	.pricing-item {
-		width: 32%;
+		width: 31%;
 	}
-
-	.pricing-item:nth-child(2) {
-			margin: 20px 2%;
-		}
 
 	.process .section-content ul {
 		background: url(../images/vert-line.jpg) repeat-y;
 		background-position: 8%;
 	}
 
-	.about .our-statistic li {
+
+	.about .our-statistic li:nth-child(2) {
 		border-bottom: 0;
 		border-right: 0;
 	}
 
-	.about .our-statistic li:last-child {
-		border-right: 1px solid grey;
+	.about .our-statistic li:first-child {
+		border-bottom: 0;
 	}
 
 }
