@@ -146,6 +146,15 @@ header {
 		background: #ffca26; 
 	}
 
+	#close-menu {
+		display: none;
+		font-size: 3rem;
+		position: absolute;
+		right: 0;
+		top: -50px;
+		color: #ffca26; 
+	}
+
 	.nav {
 		padding-top: 10px; 
 		
@@ -163,10 +172,6 @@ header {
 				border-bottom: 4px solid #ffca26;
 			}
 
-			// a:focus {
-			// 	background: none; 
-			// 	border-bottom: 5px solid #ffca26;
-			// }
 		}
 		
 	}
