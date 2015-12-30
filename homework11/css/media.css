@@ -4,10 +4,7 @@
 
   header .nav a {
     padding: 10px 0;
-    margin: 0 10px; }
-
-  .contact .section-content span {
-    align-items: flex-start; } }
+    margin: 0 10px; } }
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .nav-chapter {
     width: 33.3333333%; } }
@@ -44,7 +41,10 @@
     margin-bottom: 0;
     border: 1px solid transparent; }
     .navbar ul {
-      background-color: lightgoldenrodyellow; } }
+      background-color: lightgoldenrodyellow; }
+
+  .contact .section-content span {
+    align-items: flex-start; } }
 @media screen and (min-width: 768px) {
   html {
     font-size: 62.5%; }
