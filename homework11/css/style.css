@@ -80,6 +80,13 @@ header {
   padding: 20px 0; }
   header .icon-bar {
     background: #ffca26; }
+  header #close-menu {
+    display: none;
+    font-size: 3rem;
+    position: absolute;
+    right: 0;
+    top: -50px;
+    color: #ffca26; }
   header .nav {
     padding-top: 10px; }
     header .nav a {
