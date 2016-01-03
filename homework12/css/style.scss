@@ -76,10 +76,9 @@ footer {
 	}
 
 	.main {
-		padding: 26% 0;
-		line-height: 1.5;  
+		line-height: 1.5; 
+		 
 		h1 {
-			width: 95%; 
 			max-width: 700px;
 			margin: 0 auto;
 			font-size: 3.4rem;
@@ -88,18 +87,37 @@ footer {
 		}
 
 		p {
-			width: 85%; 
 			max-width: 560px;
 			font-size: 2.2rem;
 			line-height: 3rem;
 			margin: 0 auto;
 		}
 	}
+
+	.carousel {
+		margin: 26% 0 0;
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.carousel-caption {
+	    z-index: 1;
+	    position: relative;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	}
+
+
+	.carousel .item {
+		height: 375px;
+		background-color: rgba(0, 0, 0, 0);
+	}
 }
 
 .client {
 	padding: 40px 0 48px; 
 	background-color: #f0f0f0; 
+	
 	li {
 		padding: 10px 25px; 
 	}

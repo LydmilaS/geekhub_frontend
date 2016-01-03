@@ -53,21 +53,30 @@ footer {
   #home .icon-bar {
     background: white; }
   #home .main {
-    padding: 26% 0;
     line-height: 1.5; }
     #home .main h1 {
-      width: 95%;
       max-width: 700px;
       margin: 0 auto;
       font-size: 3.4rem;
       font-weight: 700;
       padding-bottom: 22px; }
     #home .main p, #home .main #about .about-item .fa, #about .about-item #home .main .fa, #home .main #feature li p span, #feature li p #home .main span {
-      width: 85%;
       max-width: 560px;
       font-size: 2.2rem;
       line-height: 3rem;
       margin: 0 auto; }
+  #home .carousel {
+    margin: 26% 0 0;
+    background-color: transparent; }
+  #home .carousel-caption {
+    z-index: 1;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  #home .carousel .item {
+    height: 375px;
+    background-color: transparent; }
 
 .client {
   padding: 40px 0 48px;
