@@ -1,0 +1,329 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400; }
+
+a {
+  color: inherit; }
+  a:hover {
+    color: inherit;
+    text-decoration: none; }
+
+ul li {
+  display: inline-block; }
+
+.container {
+  max-width: 960px; }
+
+section,
+footer {
+  text-align: center; }
+
+.about-this-block {
+  width: 90%;
+  max-width: 554px;
+  margin: 0 auto 110px; }
+  .about-this-block h1 {
+    color: #333;
+    font-size: 2.6rem;
+    font-weight: 900;
+    padding-top: 58px; }
+  .about-this-block p, .about-this-block #about .about-item .fa, #about .about-item .about-this-block .fa, .about-this-block #feature li p span, #feature li p .about-this-block span {
+    color: #999;
+    font-size: 1.6rem; }
+
+#home {
+  background: url(../images/home-fon.jpg) center no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 20px 0 70px;
+  color: white; }
+  #home .nav {
+    font-size: 1.6rem; }
+    #home .nav a {
+      border: 1px solid transparent; }
+      #home .nav a:hover, #home .nav a:active, #home .nav a:focus {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border: 1px solid white;
+        border-radius: 4px; }
+  #home .icon-bar {
+    background: white; }
+  #home .main {
+    padding: 26% 0;
+    line-height: 1.5; }
+    #home .main h1 {
+      width: 95%;
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 3.4rem;
+      font-weight: 700;
+      padding-bottom: 22px; }
+    #home .main p, #home .main #about .about-item .fa, #about .about-item #home .main .fa, #home .main #feature li p span, #feature li p #home .main span {
+      width: 85%;
+      max-width: 560px;
+      font-size: 2.2rem;
+      line-height: 3rem;
+      margin: 0 auto; }
+
+.client {
+  padding: 40px 0 48px;
+  background-color: #f0f0f0; }
+  .client li {
+    padding: 10px 25px; }
+
+#about {
+  padding: 5% 0; }
+  #about .about-item {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 30px 17px;
+    margin-bottom: 50px; }
+    #about .about-item > div, #about #pricing .pricing-item .about-item > .dolar, #pricing .pricing-item #about .about-item > .dolar {
+      padding-left: 24px;
+      overflow: hidden; }
+    #about .about-item h2 {
+      margin: 0;
+      color: #39c;
+      font-size: 1.6rem;
+      padding-bottom: 16px; }
+    #about .about-item p, #about .about-item .fa, #about .about-item #feature li p span, #feature li p #about .about-item span {
+      color: #ccc;
+      font-size: 16px; }
+    #about .about-item .fa {
+      font-size: 5rem; }
+    #about .about-item:hover, #about .about-item.active {
+      background-color: #f7f7f7; }
+      #about .about-item:hover p, #about .about-item:hover .fa, #about .about-item:hover #feature li p span, #feature li p #about .about-item:hover span, #about .about-item.active p, #about .about-item.active .fa, #about .about-item.active #feature li p span, #feature li p #about .about-item.active span {
+        color: #666; }
+      #about .about-item:hover .fa, #about .about-item.active .fa {
+        color: #39c; }
+
+#product {
+  padding: 0 0 100px;
+  background-color: #f0f0f0; }
+  #product .our-statistic {
+    overflow: hidden; }
+    #product .our-statistic li {
+      padding: 0;
+      border: 1px solid grey; }
+      #product .our-statistic li:hover, #product .our-statistic li.active {
+        background-color: #f5f5f5; }
+        #product .our-statistic li:hover div, #product .our-statistic li:hover #pricing .pricing-item .dolar, #pricing .pricing-item #product .our-statistic li:hover .dolar, #product .our-statistic li.active div, #product .our-statistic li.active #pricing .pricing-item .dolar, #pricing .pricing-item #product .our-statistic li.active .dolar {
+          color: #333; }
+        #product .our-statistic li:hover .fa, #product .our-statistic li.active .fa {
+          color: #2ea8fa; }
+    #product .our-statistic .fa {
+      color: #929292;
+      font-size: 7rem;
+      padding: 32px 0 54px; }
+    #product .our-statistic div, #product .our-statistic #pricing .pricing-item .dolar, #pricing .pricing-item #product .our-statistic .dolar {
+      color: #999;
+      font-family: "Myriad Pro";
+      font-size: 2.2rem; }
+    #product .our-statistic span {
+      color: #0cf;
+      font-size: 5.2rem;
+      font-weight: 300;
+      padding: 18px 0 22px;
+      display: block; }
+  #product .about-this-block {
+    margin: 100px auto 60px; }
+  #product .filter-nav {
+    margin-bottom: 48px; }
+    #product .filter-nav a {
+      color: #999;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      padding: 12px 22px;
+      border: 2px solid #999;
+      display: block;
+      margin: 0 5px 20px; }
+      #product .filter-nav a:hover {
+        color: white;
+        background-color: #33afe5;
+        border: 2px solid #33afe5; }
+    #product .filter-nav .active a {
+      color: white;
+      background-color: #33afe5;
+      border: 2px solid #33afe5; }
+  #product .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    background-color: rgba(51, 175, 229, 0.9);
+    text-align: center;
+    opacity: 0;
+    padding: 26% 0; }
+  #product .nav-chapter {
+    padding: 0;
+    margin-bottom: 20px; }
+    #product .nav-chapter:hover .overlay {
+      opacity: 1; }
+    #product .nav-chapter a {
+      color: white;
+      font-size: 1.6rem; }
+    #product .nav-chapter span {
+      display: block;
+      font-size: 1.4rem; }
+
+#pricing {
+  padding: 4% 0 9%; }
+  #pricing .pricing-item {
+    max-width: 320px;
+    position: relative;
+    border: 1px solid #ccc;
+    margin: 0 auto 20px; }
+    #pricing .pricing-item img {
+      position: absolute;
+      right: 0; }
+    #pricing .pricing-item h2 {
+      margin-top: 44px;
+      color: red;
+      font-size: 2.2rem;
+      font-weight: 700; }
+    #pricing .pricing-item div, #pricing .pricing-item .dolar {
+      margin: 26px 0 30px;
+      color: black;
+      font-size: 3rem;
+      font-weight: 700; }
+    #pricing .pricing-item .dolar {
+      font-size: 1.8rem; }
+    #pricing .pricing-item .month {
+      color: black;
+      font-size: 1.2rem;
+      font-weight: 400; }
+    #pricing .pricing-item li {
+      display: block;
+      color: #333;
+      font-size: 1.4rem;
+      line-height: 4rem;
+      border-bottom: 1px solid grey; }
+      #pricing .pricing-item li:first-child {
+        border-top: 1px solid grey; }
+    #pricing .pricing-item button {
+      background-color: white;
+      border: 1px solid #333;
+      width: 90px;
+      margin: 30px 0;
+      color: #333;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding: 10px 0; }
+      #pricing .pricing-item button:hover {
+        background-color: #2ea8fa; }
+      #pricing .pricing-item button a:hover {
+        color: inherit; }
+
+#feature {
+  padding: 4% 0 11%;
+  background-color: #33afe5; }
+  #feature .about-this-block p, #feature .about-this-block #about .about-item .fa, #about .about-item #feature .about-this-block .fa, #feature .about-this-block li p span, #feature li p .about-this-block span, #feature .about-this-block h1 {
+    color: white; }
+  #feature li {
+    border-radius: 4px;
+    padding: 42px 28px 22px 40px;
+    background-color: #FFF;
+    max-width: 300px;
+    margin: 0 auto 20px; }
+    #feature li p, #feature li #about .about-item .fa, #about .about-item #feature li .fa, #feature li p span {
+      font-size: 1.4rem;
+      line-height: 2rem;
+      color: #666;
+      margin-bottom: 30px; }
+      #feature li p span, #feature li #about .about-item .fa span, #about .about-item #feature li .fa span {
+        color: #39c; }
+  #feature .autor {
+    overflow: hidden; }
+    #feature .autor img {
+      padding-right: 12px; }
+    #feature .autor span {
+      color: #39c;
+      font-size: 1.6rem; }
+    #feature .autor div, #feature .autor #pricing .pricing-item .dolar, #pricing .pricing-item #feature .autor .dolar {
+      color: #c2c5c5;
+      font-size: 1.3rem; }
+
+#blok {
+  background-color: black;
+  padding: 40px 0 36px; }
+  #blok p, #blok #about .about-item .fa, #about .about-item #blok .fa, #blok #feature li p span, #feature li p #blok span {
+    color: white;
+    font-size: 3rem;
+    font-weight: 300; }
+  #blok button {
+    background-color: #0cf;
+    border-radius: 4px;
+    color: #333;
+    font-size: 16px;
+    border: none;
+    padding: 18px 12px; }
+  #blok a:hover {
+    color: white; }
+
+#contact {
+  padding-top: 9%; }
+  #contact li {
+    display: block;
+    width: 90%;
+    max-width: 620px;
+    margin: 0 auto 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px; }
+    #contact li input, #contact li textarea {
+      width: 100%;
+      border: none;
+      padding: 20px 26px;
+      color: #999;
+      font-size: 1.4rem;
+      font-weight: 700; }
+  #contact button {
+    background-color: #33afe5;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 20px 42px;
+    margin: 34px 0 100px; }
+  #contact .map {
+    position: relative; }
+    #contact .map .name-map {
+      background-color: rgba(51, 175, 229, 0.8);
+      position: absolute;
+      color: white;
+      font-size: 1.8rem;
+      width: 100%;
+      bottom: 40px;
+      padding: 21px; }
+
+footer {
+  padding: 4% 0 10%;
+  color: #666;
+  font-size: 1.8rem; }
+  footer span {
+    display: inline-block;
+    padding: 20px 0; }
+  footer p a:hover, footer #about .about-item .fa a:hover, #about .about-item footer .fa a:hover, footer #feature li p span a:hover, #feature li p footer span a:hover {
+    text-decoration: underline; }
+  footer .fa {
+    color: white;
+    font-size: 2.8rem;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #2ea8fa;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; }
+    footer .fa:hover {
+      color: white; }
+
+/*# sourceMappingURL=style.css.map */
