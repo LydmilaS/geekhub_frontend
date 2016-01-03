@@ -411,7 +411,7 @@ header {
     width: 70%;
     -webkit-box-shadow: 15px 20px 6px 0 rgba(0, 0, 0, 0.6);
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6); }
-    .pricing .pricing-item:hover button, .pricing .pricing-item:hover h2 {
+    .pricing .pricing-item:hover a, .pricing .pricing-item:hover h2 {
       background-color: #fc3; }
     .pricing .pricing-item:hover div {
       border-bottom: 1px solid #fc3; }
@@ -449,17 +449,17 @@ header {
     color: #999;
     font-size: 1.1rem;
     line-height: 4rem; }
-  .pricing .pricing-item button {
+  .pricing .pricing-item a {
     background-color: black;
     border: none;
     width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 18px;
     color: white;
-    padding: 18px; }
-    .pricing .pricing-item button a {
-      color: white;
-      font-size: 1.1rem;
-      font-weight: 700;
-      text-transform: uppercase; }
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase; }
 
 .blog .section-content {
   margin-top: 12%;
@@ -469,9 +469,10 @@ header {
   .blog .section-content ul {
     overflow: hidden;
     display: inline-block; }
-  .blog .section-content button {
+  .blog .section-content a.more {
+    padding: 10px 0;
     width: 150px;
-    height: 40px;
+    text-align: center;
     background-color: #fc3;
     border: 1px solid #e5e4e4;
     -webkit-border-radius: 4px;
@@ -482,13 +483,12 @@ header {
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
-    transition: 0.5s; }
-    .blog .section-content button a {
-      color: white;
-      font-size: 1.6rem;
-      font-weight: 700;
-      line-height: 2rem; }
-    .blog .section-content button:hover {
+    transition: 0.5s;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2rem; }
+    .blog .section-content a.more:hover {
       transform: scale(1.3, 1.3); }
 .blog .post {
   background-color: #FFF;
