@@ -13,6 +13,7 @@
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
 <link href="css/fonts.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/media.css" rel="stylesheet">
@@ -370,7 +371,7 @@
 	  		</form>
   		</div>
   		<div class="map">
-	  		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4964.972156132213!2d0.02707593314310239!3d51.522643879637556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a7dba68a73db%3A0x4c853629756e12cc!2s87+Prince+Regent+Ln%2C+Plaistow%2C+London+E13+8RP%2C+UK!5e0!3m2!1sen!2sua!4v1451206946303" width="100%" height="439" allowfullscreen></iframe>
+	  		<div id="googleMap" style="width:100%;height:439px;"></div>
 	  		<div class="name-map">Manchester, E13 8 London, UK</div>
   		</div>
   	</section>
@@ -387,5 +388,6 @@
 				</ul>
   		</div>
   	</footer>
+  	<script src="js/map.js"></script>
   	</body>
   </html>
