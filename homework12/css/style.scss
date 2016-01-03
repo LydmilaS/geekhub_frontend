@@ -326,11 +326,12 @@ footer {
 			}
 		}
 
-		button {
+		a {
 			background-color: white;
 			border: 1px solid #333;
 			width: 90px; 
-			margin: 30px 0;
+			display: block;
+			margin: 30px auto;
 			color: #333;
 			font-size: 1.1rem;
 			font-weight: 700;
@@ -338,11 +339,8 @@ footer {
 			padding: 10px 0; 
 			
 			&:hover {
+				color: white;
 				background-color: #2ea8fa;
-			}
-
-			a:hover {
-				color: inherit;
 			}
 		}
 	}
@@ -408,17 +406,18 @@ footer {
 		font-weight: 300;
 	} 	
 	
-	button {
+	a {
 		background-color: #0cf;
 		border-radius: 4px;
 		color: #333;
 		font-size: 16px;
 		border: none;
 		padding: 18px 12px; 
-	}
+		display: block;
 
-	a:hover {
-		color: white;
+		&:hover {
+			color: white;
+		}
 	}
 }
 
