@@ -15,7 +15,6 @@
 <link href="css/fonts.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/media.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js"></script>
@@ -71,19 +70,14 @@
 <!-- focus-->
   	<section class="focus" id="focus">
 	  	<div class="container">
-	      	<div class="header-section">
-	      		<div class="container">
+	      	<header>
 			    	<h1>
 			        	What we do with <span>love</span>
 				    </h1>
 				    <p>We design and build functional and beautiful websites</p>
-				    <img src="images/ethanol.jpg" alt="e-logo"/>
-				</div>
-	    	</div>
-	    	<div class="section-content">
-	      		<div class="row">
-	        		<div class="col-xs-12 col-sm-6">
-	          			<ul class="text-right">
+	    	</header>
+	      	<div class="row">
+	          			<ul class="text-right col-xs-12 col-sm-6">
 	            			<li>
 					            <div class="icon  pull-right">
 									<i class="fa fa-stumbleupon"></i>
@@ -112,9 +106,7 @@
 				              	</p>
 				            </li>
 	        			</ul>
-	        		</div>
-				    <div class="col-xs-12 col-sm-6">
-				       	<ul class="text-left">
+				       	<ul class="text-left col-xs-12 col-sm-6">
 					        <li>
 					           	<div class="icon  pull-left">
 									<i class="fa fa-lightbulb-o"></i>
@@ -143,33 +135,34 @@
 					            </p>
 					        </li>
 				        </ul>
-	        		</div>
-	        	</div>
 	      	</div>
 	    </div>
   	</section>
 <!-- about-->
   	<section class="about" id="about">
-    	<div class="header-section">
-    		<div class="container">
+    	<header class="container">
 		        <h1>
 		          Wont to known us <span>better</span>
 		        </h1>
 		        <p>We design and build functional and beautiful websites</p>
-		        <img src="images/ethanol.jpg" alt="e-logo"/>
-		    </div>
-      	</div>
+      	</header>
         <div class="section-content">
     		<div class="container">
       			<div class="row">
 			      	<div class="col-xs-12 col-sm-6">
 			      		<div class="wrap-soc-net">
 			      		<img src="images/prof-woman.jpg" class="img-responsive" alt="prof-woman"/>
-			      		<div class="soc-net">
-			      			<a href="#"><i class="fa fa-facebook"></i></a>
-			      			<a href="#"><i class="fa fa-twitter"></i></a>
-			      			<a href="#"><i class="fa fa-linkedin"></i></a>
-			      		</div>
+			      		<ul class="soc-net">
+			      			<li>
+			      				<a href="#" class="fa fa-facebook"></a>
+			      			</li>
+			      			<li>
+			      				<a href="#" class="fa fa-twitter"></a>
+			      			</li>
+			      			<li>
+			      				<a href="#" class="fa fa-linkedin"></a>
+			      			</li>
+			      		</ul>
 			      		</div>
 			      		<div class="name-foto">
 			      			Developing <span>Amazing Things</span> with Passion since 2012.
@@ -180,42 +173,53 @@
 			      		<p>
 			      			Vel donec et scelerisque vestibulum. Condimentum aliquam, mollit magna velit nec, tempor cursus vitae sit aliquet neque purus. Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent.
 			      		</p>
-			      		<h3>UX/UX</h3>
-			      		<div class="progress">
-  							<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-    							<span class="sr-only">100% Complete</span>
-  							</div>
-						</div>
-						<h3>HTML / CSS3 / SASS</h3>
-			      		<div class="progress">
-  							<div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100" style="width:94%">
-    							<span class="sr-only">94% Complete</span>
-  							</div>
-						</div>
-						<h3>Javascript</h3>
-			      		<div class="progress">
-  							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-    							<span class="sr-only">70% Complete</span>
-  							</div>
-						</div>
-						<h3>Wordpress</h3>
-			      		<div class="progress">
-  							<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
-    							<span class="sr-only">55% Complete</span>
-  							</div>
-						</div>
-						<h3>Php</h3>
-			      		<div class="progress">
-  							<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
-    							<span class="sr-only">55% Complete</span>
-  							</div>
-						</div>
+			      		<ul class="progress-list">
+			      			<li>
+					      		<h3>UX/UX</h3>
+					      		<div class="progress">
+		  							<div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+		    							<span class="sr-only">100% Complete</span>
+		  							</div>
+								</div>
+							</li>
+							<li>
+								<h3>HTML / CSS3 / SASS</h3>
+					      		<div class="progress">
+		  							<div class="progress-bar" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100" style="width:94%">
+		    							<span class="sr-only">94% Complete</span>
+		  							</div>
+								</div>
+							</li>
+							<li>
+								<h3>Javascript</h3>
+					      		<div class="progress">
+		  							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+		    							<span class="sr-only">70% Complete</span>
+		  							</div>
+								</div>
+							</li>
+							<li>
+								<h3>Wordpress</h3>
+					      		<div class="progress">
+		  							<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+		    							<span class="sr-only">55% Complete</span>
+		  							</div>
+								</div>
+							</li>
+							<li>
+								<h3>Php</h3>
+					      		<div class="progress">
+		  							<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+		    							<span class="sr-only">55% Complete</span>
+		  							</div>
+								</div>
+							</li>
+						</ul>
 			      	</div>
 		      	</div>
     		</div>
     		<div class="statistic">
-    			<div class="container">
-    				<ul class="our-statistic">
+    				<ul class="container our-statistic">
     					<li class="col-xs-6 col-sm-3">
     						<i class="fa fa-thumbs-o-up"></i>
     						<div>1,236</div>
@@ -237,34 +241,35 @@
     						<span>Photos Taken</span>
     					</li>
     				</ul>
-    			</div>
     		</div>
     	</div>
   	</section>
 <!-- team-->
   	<section class="team">
-  		<div class="header-section">
-		    <div class="container">
+  		<header class="container">
 		       	<h1>
 		        	This is our great <span>team</span>
 		        </h1>
 		        <p> The right people on the right job</p>
-		        <img src="images/ethanol.jpg" alt="e-logo"/>
-		    </div>
-		</div>
+		</header>
 		<div class="section-content">
-			<div class="container">
-			    <ul>
+			    <ul class="container">
 			      	<li class="col-md-4">
 			      		<img src="images/maria.jpg" class="img-responsive" alt="Maria Shara">
 			      		<div class="about-proffesion">
 			      			<div>Maria Shara</div>
 			      			<span>founder  - developer</span>
-			      			<div class="soc-net">
-				      			<a href="#"><i class="fa fa-facebook"></i></a>
-				      			<a href="#"><i class="fa fa-twitter"></i></a>
-				      			<a href="#"><i class="fa fa-linkedin"></i></a>
-				      		</div>
+			      			<ul class="soc-net">
+				      			<li>
+				      				<a href="#" class="fa fa-facebook"></a>
+				      			</li>
+				      			<li>
+				      				<a href="#" class="fa fa-twitter"></a>
+				      			</li>
+				      			<li>
+				      				<a href="#" class="fa fa-linkedin"></a>
+				      			</li>
+				      		</ul>
 			      		</div>
 			      	</li>
 			      	<li class="col-md-4">
@@ -272,11 +277,17 @@
 			      		<div class="about-proffesion">
 			      			<div>Joanna Doe</div>
 			      			<span>founder  - Designer</span>
-			      			<div class="soc-net">
-				      			<a href="#"><i class="fa fa-facebook"></i></a>
-				      			<a href="#"><i class="fa fa-twitter"></i></a>
-				      			<a href="#"><i class="fa fa-linkedin"></i></a>
-				      		</div>
+			      			<ul class="soc-net">
+				      			<li>
+				      				<a href="#" class="fa fa-facebook"></a>
+				      			</li>
+				      			<li>
+				      				<a href="#" class="fa fa-twitter"></a>
+				      			</li>
+				      			<li>
+				      				<a href="#" class="fa fa-linkedin"></a>
+				      			</li>
+				      		</ul>
 			      		</div>
 			      	</li>
 			      	<li class="col-md-4">
@@ -284,28 +295,30 @@
 			      		<div class="about-proffesion">
 			      			<div>Serena William</div>
 			      			<span>mobile apps developer</span>
-			      			<div class="soc-net">
-				      			<a href="#"><i class="fa fa-facebook"></i></a>
-				      			<a href="#"><i class="fa fa-twitter"></i></a>
-				      			<a href="#"><i class="fa fa-linkedin"></i></a>
-				      		</div>
+			      			<ul class="soc-net">
+				      			<li>
+				      				<a href="#" class="fa fa-facebook"></a>
+				      			</li>
+				      			<li>
+				      				<a href="#" class="fa fa-twitter"></a>
+				      			</li>
+				      			<li>
+				      				<a href="#" class="fa fa-linkedin"></a>
+				      			</li>
+				      		</ul>
 			      		</div>
 			      	</li>
 			    </ul>
-			</div>
 		</div>
   	</section>
 <!-- feature-->
   	<section class="feature" id="feature">
-  		<div class="header-section">
-  			<div class="container">
+  		<header class="container">
   				<h1>
 		        	Welcome we are <span>ethanol</span>
 		        </h1>
 		        <p>We design and build functional and beautiful websites</p>
-		        <img src="images/ethanol.jpg" alt="e-logo"/>
-  			</div>
-  		</div>
+  		</header>
   		<div class="section-content">
   			<div class="container">
   				<div class="col-sm-6 col-md-4">
@@ -359,25 +372,20 @@
   	</section>
 <!-- work-->
   	<section class="work">
-  		<div class="header-section">
-  			<div class="container">
+  		<header class="container">
   				<h1>
 		        	Our work is <span>incredible</span>
 		        </h1>
 		        <p>We design and build functional and beautiful websites</p>
-		        <img src="images/ethanol.jpg" alt="e-logo"/>
-  			</div>
-  		</div>
+  		</header>
   		<div class="section-content">
-  			<div class="filter-nav">
-  				<ul>                                            
+  				<ul class="filter-nav">                                            
   					<li class="active"><a href="">All</a></li>
-  					<li><a href="">Website</a></li>
-  					<li><a href="">Graphic</a></li>
-  					<li><a href="">Identity</a></li>
-  					<li><a href="">Mobile Apps</a></li>
+  					<li><a href="#">Website</a></li>
+  					<li><a href="#">Graphic</a></li>
+  					<li><a href="#">Identity</a></li>
+  					<li><a href="#">Mobile Apps</a></li>
   				</ul>
-  			</div>
   			<div class="container-fluid">
 	  			<div class="row">
 	  				<div class="nav-chapter col-xs-6 col-sm-3 col-md-2">
@@ -542,18 +550,14 @@
   	</section>
 <!-- process-->
   	<section class="process">
-  		<div class="header-section">
-  			<div class="container">
+  		<header class="container">
   				<h1>
 		        	Our best <span>workflow</span>
 		        </h1>
 		        <p>We design and build functional and beautiful websites</p>
-		        <img src="images/ethanol.jpg" alt="e-logo"/>
-  			</div>
-  		</div>
+  		</header>
 		<div class="section-content">
-			<div class="container">
-				<ul>
+				<ul class="container">
 					<li>
 						<div class="icon  pull-left">
 							<i class="fa fa-search"></i>
@@ -591,20 +595,16 @@
 						</p>
 					</li>
 				</ul>
-			</div>
 		</div>
   	</section>
 <!-- pricing-->
 	<section class="pricing" id="pricing">
-		<div class="header-section">
-	  		<div class="container">
+		<header class="container">
 	  			<h1>
 			       	Our best <span>workflow</span>
 			    </h1>
-			    <p>We design and build functional and beautiful websites</p>
-			    <img src="images/ethanol.jpg" alt="e-logo"/>
-	  		</div>
-	  	</div>
+			    <p>We design and build functional and beautiful websites>
+	  	</header>
 	  	<div class="section-content">
 	  		<div class="container">
 	  			<div class="pricing-item">
@@ -660,15 +660,12 @@
 	</section>
 <!-- blog-->
 	<section class="blog">
-		<div class="header-section">
-	  		<div class="container">
+		<header class="container">
 	  			<h1>
 			       	latest from the <span>blog</span>
 			    </h1>
-			    <p>We design and build functional and beautiful websites</p>
-			    <img src="images/ethanol.jpg" alt="e-logo"/>
-	  		</div>
-	  	</div>
+			    <p>We design and build functional and beautiful websites>
+	  	</header>
 	  	<div class="section-content">
 	  		<div class="container">
 	  			<div class="row">
@@ -789,15 +786,12 @@
 	</section>
 <!-- contact-->
 	<section class="contact" id="contact">
-		<div class="header-section">
-	  		<div class="container">
+		<header class="container">
 	  			<h1>
 			       	feel free to <span>contact us</span>
 			    </h1>
-			    <p>We design and build functional and beautiful websites</p>
-			    <img src="images/ethanol.jpg" alt="e-logo"/>
-	  		</div>
-	  	</div>
+			    <p>We design and build functional and beautiful websites>
+	  	</header>
 	  	<div class="section-content">
 	  		<!-- 87 Prince Regent Ln, London, England E13 8RP, United Kingdom -->
 			<div id="googleMap" style="width:100%;height:490px;"></div>
