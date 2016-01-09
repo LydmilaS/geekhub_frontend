@@ -67,6 +67,49 @@ section {
 	text-align: center;
 	padding-top: 13%; 
 	overflow-x: hidden;
+	
+	header {
+		padding: 0;
+		position: relative;
+		text-align: center;
+		
+		h1 {
+			@include h1;
+			
+			span {
+				@extend h1;
+				color: #fc3;
+				font-weight: 700;
+			}
+
+		}
+
+		p {
+			@include p;
+			color: #999;
+			font-style: italic;
+			line-height: 3rem;
+			padding-bottom: 50px; 
+			border-bottom: 1px solid #ccc; 
+		}
+				
+		img {
+			position: absolute;
+			bottom: -17px;
+			left: 46%;
+		}
+
+		&:after {
+			content: " ";
+		    background-image: url(../images/ethanol.jpg);
+		    position: absolute;
+		    width: 56px;
+		    height: 56px;
+		    bottom: -25px;
+		    left: 47%;
+		}
+	}
+
 }
 
 .icon {
@@ -85,36 +128,6 @@ section {
 	}
 }
 
-.header-section {
-	position: relative;
-	text-align: center;
-	
-	h1 {
-		@include h1;
-		
-		span {
-			@extend h1;
-			color: #fc3;
-			font-weight: 700;
-		}
-
-	}
-
-	p {
-		@include p;
-		color: #999;
-		font-style: italic;
-		line-height: 3rem;
-		padding-bottom: 50px; 
-		border-bottom: 1px solid #ccc; 
-	}
-			
-	img {
-		position: absolute;
-		bottom: -17px;
-		left: 46%;
-	}
-}
 
 
 .soc-net {
@@ -167,7 +180,8 @@ header {
 			text-transform: uppercase;
 			border-bottom: 4px solid transparent;
 			
-			&:hover {
+			&:hover,
+			&:active {
 				background: none; 
 				border-bottom: 4px solid #ffca26;
 			}
@@ -182,8 +196,9 @@ header {
 	padding: 20% 0;
 	background: url(../images/bg-1.jpg) center no-repeat;
 	-webkit-background-size: cover; 
-	 -o-background-size: cover; 
-	 background-size: cover;
+	 	-o-background-size: cover; 
+	 	background-size: cover;
+	
 	    h1 {
 	    	@include h1;
 			color: #fc3;
@@ -305,6 +320,12 @@ header {
 	    
 	    .progress-bar {
 		    background-color: #ffca26;
+		}
+	}
+	
+	.progress-list {
+		li {
+			display: block;
 		}
 	}
 
