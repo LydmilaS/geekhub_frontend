@@ -34,20 +34,30 @@ section {
     color: white;
     font-size: 5.5rem; }
 
-.header-section {
+section header {
+  padding: 0;
   position: relative;
   text-align: center; }
-  .header-section h1, .header-section h1 span {
+  section header:after {
+    content: " ";
+    background-image: url(../images/ethanol.jpg);
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    bottom: -25px;
+    left: 47%; }
+  section header h1, section header h1 span {
     font-family: "Lato", sans-serif;
     font-size: 3rem;
     font-weight: 300;
     line-height: 4rem;
     text-transform: uppercase;
     color: #333; }
-    .header-section h1 span {
+    section header h1 span {
+      position: static;
       color: #fc3;
       font-weight: 700; }
-  .header-section p, .header-section .main span, .main .header-section span, .header-section .about .section-content h3, .about .section-content .header-section h3, .header-section footer p a, footer p .header-section a {
+  section header p, section header .main span, .main section header span, section header .about .section-content h3, .about .section-content section header h3, section header footer p a, footer p section header a {
     font-family: "Lato", sans-serif;
     font-size: 2.2rem;
     color: white;
@@ -56,7 +66,7 @@ section {
     line-height: 3rem;
     padding-bottom: 50px;
     border-bottom: 1px solid #ccc; }
-  .header-section img {
+  section header img {
     position: absolute;
     bottom: -17px;
     left: 46%; }
@@ -97,7 +107,7 @@ header {
       font-weight: 700;
       text-transform: uppercase;
       border-bottom: 4px solid transparent; }
-      header .nav a:hover {
+      header .nav a:hover, header .nav a:active {
         background: none;
         border-bottom: 4px solid #ffca26; }
 
@@ -107,7 +117,7 @@ header {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  .main h1, .main .header-section h1 span, .header-section h1 .main span {
+  .main h1, .main section header h1 span, section header h1 .main span {
     font-family: "Lato", sans-serif;
     font-size: 3rem;
     font-weight: 300;
@@ -183,6 +193,8 @@ header {
     .about .name-foto span {
       font-size: 3.7rem;
       font-weight: 700; }
+  .about .progress-list li {
+    display: block; }
   .about .progress {
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -285,7 +297,7 @@ header {
       font-size: 14px;
       display: block;
       margin-left: 64px; }
-    .feature .section-content h1, .feature .section-content .header-section h1 span, .header-section h1 .feature .section-content span {
+    .feature .section-content h1, .feature .section-content section header h1 span, section header h1 .feature .section-content span {
       font-family: "Lato", sans-serif;
       font-size: 3rem;
       font-weight: 300;

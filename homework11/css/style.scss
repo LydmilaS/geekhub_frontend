@@ -85,36 +85,51 @@ section {
 	}
 }
 
-.header-section {
-	position: relative;
-	text-align: center;
-	
-	h1 {
-		@include h1;
+section {
+	header {
+		padding: 0; 
+		position: relative;
+		text-align: center;
 		
-		span {
-			@extend h1;
-			color: #fc3;
-			font-weight: 700;
+		&:after {
+				content: " ";
+				background-image: url(../images/ethanol.jpg);
+				position: absolute;
+				width: 56px;
+			    height: 56px;
+			    bottom: -25px;
+			    left: 47%; 
+		} 
+		
+		h1 {
+			@include h1;
+						
+			span {
+				@extend h1;
+				position: static;
+				color: #fc3;
+				font-weight: 700;
+			}
+
 		}
 
-	}
-
-	p {
-		@include p;
-		color: #999;
-		font-style: italic;
-		line-height: 3rem;
-		padding-bottom: 50px; 
-		border-bottom: 1px solid #ccc; 
-	}
-			
-	img {
-		position: absolute;
-		bottom: -17px;
-		left: 46%;
+		p {
+			@include p;
+			color: #999;
+			font-style: italic;
+			line-height: 3rem;
+			padding-bottom: 50px; 
+			border-bottom: 1px solid #ccc; 
+		}
+				
+		img {
+			position: absolute;
+			bottom: -17px;
+			left: 46%;
+		}
 	}
 }
+
 
 
 .soc-net {
@@ -128,14 +143,12 @@ section {
 		    height: 67px; 
 		    background-color: #fc3;
 		    font-size: 4.2rem;
-		    margin-right: 5px;
-		    
-		    
+		    margin-right: 5px;    
 		}
 
 		a:hover {
-		    	color: black;
-		    }
+		   	color: black;
+		}
 	}
 
 
@@ -167,15 +180,13 @@ header {
 			text-transform: uppercase;
 			border-bottom: 4px solid transparent;
 			
-			&:hover {
+			&:hover,
+			&:active {
 				background: none; 
 				border-bottom: 4px solid #ffca26;
 			}
-
 		}
-		
 	}
-
 }
 
 .main {
@@ -295,6 +306,12 @@ header {
 				size: 3.7rem;
 				weight: 700;
 			}
+		}
+	}
+
+	.progress-list {
+		li {
+			display: block;
 		}
 	}
 
