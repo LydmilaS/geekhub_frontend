@@ -128,56 +128,6 @@ section {
 	}
 }
 
-<<<<<<< HEAD
-=======
-section {
-	header {
-		padding: 0; 
-		position: relative;
-		text-align: center;
-		
-		&:after {
-				content: " ";
-				background-image: url(../images/ethanol.jpg);
-				position: absolute;
-				width: 56px;
-			    height: 56px;
-			    bottom: -25px;
-			    left: 47%; 
-		} 
-		
-		h1 {
-			@include h1;
-						
-			span {
-				@extend h1;
-				position: static;
-				color: #fc3;
-				font-weight: 700;
-			}
-
-		}
-
-		p {
-			@include p;
-			color: #999;
-			font-style: italic;
-			line-height: 3rem;
-			padding-bottom: 50px; 
-			border-bottom: 1px solid #ccc; 
-		}
-				
-		img {
-			position: absolute;
-			bottom: -17px;
-			left: 46%;
-		}
-	}
-}
->>>>>>> 21be1a29b827940e81349b880c87b4a7d427394b
-
-
-
 .soc-net {
 		position: absolute;
 		a {
@@ -427,6 +377,7 @@ header {
 	}
 
 	.soc-net {
+		margin: 0;
 		bottom: 0;
 		left: 5%;
 	}

@@ -69,46 +69,6 @@ section {
     color: white;
     font-size: 5.5rem; }
 
-<<<<<<< HEAD
-=======
-section header {
-  padding: 0;
-  position: relative;
-  text-align: center; }
-  section header:after {
-    content: " ";
-    background-image: url(../images/ethanol.jpg);
-    position: absolute;
-    width: 56px;
-    height: 56px;
-    bottom: -25px;
-    left: 47%; }
-  section header h1, section header h1 span {
-    font-family: "Lato", sans-serif;
-    font-size: 3rem;
-    font-weight: 300;
-    line-height: 4rem;
-    text-transform: uppercase;
-    color: #333; }
-    section header h1 span {
-      position: static;
-      color: #fc3;
-      font-weight: 700; }
-  section header p, section header .main span, .main section header span, section header .about .section-content h3, .about .section-content section header h3, section header footer p a, footer p section header a {
-    font-family: "Lato", sans-serif;
-    font-size: 2.2rem;
-    color: white;
-    color: #999;
-    font-style: italic;
-    line-height: 3rem;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ccc; }
-  section header img {
-    position: absolute;
-    bottom: -17px;
-    left: 46%; }
-
->>>>>>> 21be1a29b827940e81349b880c87b4a7d427394b
 .soc-net {
   position: absolute; }
   .soc-net a {
@@ -270,6 +230,7 @@ header {
   .about .wrap-soc-net {
     position: relative; }
   .about .soc-net {
+    margin: 0;
     bottom: 0;
     left: 5%; }
 
