@@ -21,16 +21,21 @@ section,
 footer {
   text-align: center; }
 
-.about-this-block {
+header {
   width: 90%;
   max-width: 554px;
   margin: 0 auto 110px; }
-  .about-this-block h1 {
+  header h1 {
     color: #333;
     font-size: 2.6rem;
     font-weight: 900;
-    padding-top: 58px; }
-  .about-this-block p, .about-this-block #about .about-item .fa, #about .about-item .about-this-block .fa, .about-this-block #feature li p span, #feature li p .about-this-block span {
+    padding-top: 148px;
+    position: relative; }
+    header h1:before {
+      position: absolute;
+      top: 0;
+      left: 42%; }
+  header p, header #about .about-item .fa, #about .about-item header .fa, header #feature li p span, #feature li p header span {
     color: #999;
     font-size: 1.6rem; }
 
@@ -39,8 +44,15 @@ footer {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 20px 0 70px;
+  padding: 0 0 70px;
   color: white; }
+  #home #header_main {
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    background: rgba(51, 153, 204, 0.7);
+    z-index: 2; }
   #home .nav {
     font-size: 1.6rem; }
     #home .nav a {
@@ -86,6 +98,8 @@ footer {
 
 #about {
   padding: 5% 0; }
+  #about header h1:before {
+    content: url(../images/a-logo.jpg); }
   #about .about-item {
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -114,6 +128,8 @@ footer {
 #product {
   padding: 0 0 100px;
   background-color: #f0f0f0; }
+  #product header h1:before {
+    content: url(../images/portfol.png); }
   #product .our-statistic {
     overflow: hidden; }
     #product .our-statistic li {
@@ -183,11 +199,15 @@ footer {
 
 #pricing {
   padding: 4% 0 9%; }
+  #pricing header h1:before {
+    content: url(../images/list.jpg); }
   #pricing .pricing-item {
     max-width: 320px;
     position: relative;
     border: 1px solid #ccc;
     margin: 0 auto 20px; }
+    #pricing .pricing-item:nth-child(3) {
+      background: url(../images/popular.jpg) top right no-repeat; }
     #pricing .pricing-item img {
       position: absolute;
       right: 0; }
@@ -233,8 +253,11 @@ footer {
 #feature {
   padding: 4% 0 11%;
   background-color: #33afe5; }
-  #feature .about-this-block p, #feature .about-this-block #about .about-item .fa, #about .about-item #feature .about-this-block .fa, #feature .about-this-block li p span, #feature li p .about-this-block span, #feature .about-this-block h1 {
+  #feature header p, #feature header #about .about-item .fa, #about .about-item #feature header .fa, #feature header li p span, #feature li p header span,
+  #feature header h1 {
     color: white; }
+  #feature header h1:before {
+    content: url(../images/quote.png); }
   #feature li {
     border-radius: 4px;
     padding: 42px 28px 22px 40px;
@@ -279,6 +302,8 @@ footer {
 
 #contact {
   padding-top: 9%; }
+  #contact header h1:before {
+    content: url(../images/send.jpg); }
   #contact li {
     display: block;
     width: 90%;

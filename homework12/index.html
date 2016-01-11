@@ -14,7 +14,6 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js"></script>
 <link href="css/fonts.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
@@ -23,74 +22,76 @@
 <body>
 <!-- home-->
 	<section id="home">
-    	<div class="container">
-    		<header>
-	      		<div class="row">
-	        		<div class="logo text-left col-xs-4 col-md-3">
-	         			<a href="#"><img src="images/logo.png" alt="logo-Atom"></a>
+    		<header id="header_main">
+    			<div class="container">
+		      		<div class="row">
+		        		<div class="logo text-left col-xs-4 col-md-3">
+		         			<a href="#"><img src="images/logo.png" alt="logo-Atom"></a>
+		        		</div>
+		        		<nav class="navbar col-xs-8 col-md-9">
+		          			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span> 
+		          			</button>
+		          			<div class="collapse navbar-collapse navbar-right" id="myNavbar" >
+		            			<ul class="nav navbar-nav">
+							        <li class="active"><a href="#home">Home</a></li>
+							        <li><a href="#about">About Us</a></li>
+							        <li><a href="#pricing">Pricing</a></li>
+							        <li><a href="#feature">Features</a></li>
+							        <li><a href="#product">Products</a></li>
+							        <li><a href="#blok">Testimonials</a></li>
+							        <li><a href="#contact">Contact</a></li>
+			           			</ul>
+		          			</div>
+	        			</nav>
 	        		</div>
-	        		<nav class="navbar col-xs-8 col-md-9">
-	          			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				            <span class="icon-bar"></span>
-				            <span class="icon-bar"></span>
-				            <span class="icon-bar"></span> 
-	          			</button>
-	          			<div class="collapse navbar-collapse navbar-right" id="myNavbar" >
-	            			<ul class="nav navbar-nav">
-						        <li class="active"><a href="#home">Home</a></li>
-						        <li><a href="#about">About Us</a></li>
-						        <li><a href="#pricing">Pricing</a></li>
-						        <li><a href="#feature">Features</a></li>
-						        <li><a href="#product">Products</a></li>
-						        <li><a href="#blok">Testimonials</a></li>
-						        <li><a href="#contact">Contact</a></li>
-		           			</ul>
-	          			</div>
-        			</nav>
 	      		</div>
 	      	</header>
-	      	<div id="slider" class="carousel slide" data-ride="carousel">
-				<!-- controls -->
-				<ol class="carousel-indicators">
-				    <li data-target="#slider" data-slide-to="0" class="active"></li>
-				    <li data-target="#slider" data-slide-to="1"></li>
-				    <li data-target="#slider" data-slide-to="2"></li>
-				    <li data-target="#slider" data-slide-to="3"></li>
-			  	</ol>
-			 	 <!-- Wrapper for slides -->
-			  	<div class="carousel-inner" role="listbox">
-			    	<div class="item active">
-			        	<div class="main carousel-caption">
-					      	<h1>We design & develop qaulity products to help small & medium level business.</h1>
-					      	<p>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpa</p>
-				        </div>
-			      	</div>
-			    	<div class="item">
-			        	<div class="main carousel-caption">
-					      	<h1>We design & develop qaulity products to help small & medium level business.</h1>
-					      	<p>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpa</p>
-				        </div>
-			    	</div>
-			    	<div class="item">
-			        	<div class="main carousel-caption">
-					      	<h1>We design & develop qaulity products to help small & medium level business.</h1>
-					      	<p>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpa</p>
-				        </div>
-			    	</div>
-			    	<div class="item">
-			        	<div class="main carousel-caption">
-					      	<h1>We design & develop qaulity products to help small & medium level business.</h1>
-					      	<p>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpa</p>
-				        </div>
-			    	</div>
-			  	</div>	    
-			</div>	
-		</div>
+	      	<div class="container">
+		      	<div id="slider" class="carousel slide " data-ride="carousel">
+					<!-- controls -->
+					<ol class="carousel-indicators">
+					    <li data-target="#slider" data-slide-to="0" class="active"></li>
+					    <li data-target="#slider" data-slide-to="1"></li>
+					    <li data-target="#slider" data-slide-to="2"></li>
+					    <li data-target="#slider" data-slide-to="3"></li>
+				  	</ol>
+				 	 <!-- Wrapper for slides -->
+				  	<div class="carousel-inner" role="listbox">
+				    	<div class="item active">
+				        	<div class="main carousel-caption">
+						      	<h1>We design & develop qaulity products to help small & medium level business.</h1>
+						      	<p>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpa</p>
+					        </div>
+				      	</div>
+				    	<div class="item">
+				        	<div class="main carousel-caption">
+						      	<h1>We design & develop qaulity products to help small & medium level business.</h1>
+						      	<p>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpa</p>
+					        </div>
+				    	</div>
+				    	<div class="item">
+				        	<div class="main carousel-caption">
+						      	<h1>We design & develop qaulity products to help small & medium level business.</h1>
+						      	<p>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpa</p>
+					        </div>
+				    	</div>
+				    	<div class="item">
+				        	<div class="main carousel-caption">
+						      	<h1>We design & develop qaulity products to help small & medium level business.</h1>
+						      	<p>Lorem ipsum dolor sit amet, libero turpis non cras ligula, id commodo, aenean est in volutpa</p>
+					        </div>
+				    	</div>
+				  	</div>	    
+				</div>
+			</div>
 	</section>
 <!-- client-->
   	<section class="client">
     	<div class="container">
-      		<ul>
+      		<ul rel="nofollow">
       			<li><a href="#"><img src="images/dribbble.png" alt=""></a></li>
       			<li><a href="#"><img src="images/pinterest.png" alt=""></a></li>
       			<li><a href="#"><img src="images/instagram.png" alt=""></a></li>
@@ -102,13 +103,12 @@
 <!-- about-->
   	<section id="about">
     	<div class="container">
-    		<div class="about-this-block">
-      			<img src="images/a-logo.jpg" alt="a-logo"/>
+    		<header>
 	      		<h1>What is Special About Atom App</h1>
 	      		<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
-      		</div>
+      		</header>
       		<div class="row text-left">
-      			<div class="about-item active col-xs-12 col-sm-6 col-md-4">
+      			<div class="about-item col-xs-12 col-sm-6 col-md-4">
 					<i class="fa fa-thumbs-o-up pull-left"></i>
 					<div>
 	      				<h2><a href="#">Built with Bootstrap 3.0</a></h2>
@@ -162,7 +162,7 @@
     				<div>In Business</div>
     				<span>2006</span>
     			</li>
-    			<li  class="active col-xs-6 col-sm-3">
+    			<li  class="col-xs-6 col-sm-3">
     				<i class="fa fa-comments"></i>
     				<div>Clients Served</div>
     				<span>240</span>
@@ -178,11 +178,10 @@
     				<span>10</span>
     			</li>
     		</ul>
-    		<div class="about-this-block">
-	    		<img src="images/portfol.png" alt="bag">
+    		<header>
 	    		<h1>What is Special About Atom App</h1>
 	    		<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
-	    	</div>
+	    	</header>
     		<div class="filter-nav">
   				<ul>                                            
   					<li class="active"><a href="">All</a></li>
@@ -246,11 +245,10 @@
 <!-- pricing-->
   	<section id="pricing">
   		<div class="container">
-  			<div class="about-this-block">
-	  			<img src="images/list.jpg" alt="">
+  			<header>
 	  			<h1>What is Special About Atom App</h1>
 	  			<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
-	  		</div>
+	  		</header>
   			<div class="pricing-item col-sm-6 col-md-4">
 	  			<h2>Basic</h2>
 	  			<div>
@@ -266,7 +264,6 @@
 	  			<a href="#">sign up</a>
 	  		</div>
 	  		<div class="pricing-item col-sm-6 col-md-4">
-	  			<img src="images/popular.jpg" alt="popular">
 	  			<h2>Basic</h2>
 	  			<div>
 	  				<span class="dolar"><sup>$</sup></span>25<span class="month">/month</span>
@@ -299,11 +296,10 @@
 <!-- feature-->
   	<section id="feature">
   		<div class="container">
-  			<div class="about-this-block">
-	  			<img src="images/quote.png" alt=""/>
+  			<header>
 	  			<h1>What is Special About Atom App</h1>
 	  			<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
-	  		</div>
+	  		</header>
   			<ul class="text-left">
   				<li>
   					<p>
@@ -352,11 +348,10 @@
 <!-- contact-->
   	<section id="contact">
   		<div class="container">
-  			<div class="about-this-block">
-	  			<img src="images/send.jpg" alt="send"/>
+  			<header>
 	  			<h1>What is Special About Atom App</h1>
 	  			<p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
-  			</div>
+  			</header>
   			<form action="#" method="POST" role="form">
 	  				<ul>
 							<li>
@@ -382,12 +377,12 @@
   		<div class="container">
   			<p>©2014 <a href="#">Atom</a>.  All Rights Reserved</p>
   			<span>About  Terms  Privacy</span>
-  			<ul class="links">
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-				</ul>
+  			<ul class="links" rel="nofollow">
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-pinterest"></a></li>
+					<li><a href="#" class="fa fa-dribbble"></a></li>
+			</ul>
   		</div>
   	</footer>
   	<script src="js/map.js"></script>
