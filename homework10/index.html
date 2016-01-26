@@ -9,27 +9,61 @@
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<title>Forkio</title>
+	<script>
+	$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('#main-menu');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 980 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
 </head>
 <body>
 <!-- header -->
 	<header>
 		<div class="container">
-			<div class="logo xs-col-6 m-col-4">
-				<img src="images/shape-1.png" alt="pencil"/>
-				<a href="#">Fork<span>io</span>
-				</a>
-			</div>
-			<div class="xs-col-6 m-col-8">
-				<a href="#" class="button small">Buy Now</a>
-				<nav>
-					<ul>
-						<li><a href="#">Overview</a></li>
-						<li><a href="#">About Fork</a></li>
-						<li><a href="#">Buying Options</a></li>
-						<li><a href="#">Support</a></li>
-					</ul>
-				</nav> 
+			<div class="row">
+				<div class="logo xs-col-4 m-col-2">
+					<img src="images/shape-1.png" alt="pencil"/>
+					<a href="#">Fork<span>io</span>
+					</a>
+				</div>
+				<div class="m-col-8">
+					<nav class="clearfix" id="main-menu">
+						<ul class="clearfix" >
+							<li class="active visible-xs visible-sm visible-md"><a href="#">Home</a></li>
+							<li><a href="#">Overview</a></li>
+							<li><a href="#">About Fork</a></li>
+							<li><a href="#">Buying Options</a></li>
+							<li><a href="#">Support</a></li>
+							<li class="social-links visible-xs visible-sm visible-md">
+				              <span>Follow Us</span>
+				              <ul>
+				                <li><a href="#"><i class="fa fa-github"></i></a></li>
+				                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				              </ul>
+				            </li>
+				        </ul>
+					</nav>
+				</div>
+				<div class="xs-col-8 m-col-2">
+					<img src="images/menu.png" alt="#" class="visible-xs visible-sm visible-md" id="pull"/>
+					<a href="#" class="button small">Buy now</a>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -39,15 +73,16 @@
 			<h1>Fork App</h1>
 			<div>A real gamechanger in the world of web development</div>
 			<span>v. 2.8 For Mac and Windows</span>
-			<div class="download">
-				<a href="#" class="button big">Download For Free Now</a>
-				<span>Unlimited 30-Days Trial Period</span>
-			</div>
+			
 		</div>
 	</section>	
 <!-- editor -->
 	<section class="editor">
 		<div class="container">
+			<div class="download">
+				<a href="#" class="button big">Download For Free Now</a>
+				<span>Unlimited 30-Days Trial Period</span>
+			</div>
 			<h1>Revolutionary editor</h1>
 			<p>
 				Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue. 

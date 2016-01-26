@@ -72,10 +72,23 @@ html {
     margin-left: 0;
   }
 
+  .xs-col-4,
+  .xs-col-6,
+  .xs-col-8 {
+    float: left;
+  }
+
+  .xs-col-4 {
+    width: 33.33333333333333%;
+  }
+
   .xs-col-6 {
-  width: 50%;
-  float: left;
-}
+    width: 50%;
+  }
+
+  .xs-col-8 {
+    width: 66.66666666666667%;
+  }
 
 .xs-col-12 {
   width: 100%;
@@ -139,8 +152,10 @@ html {
   }
 
 
-  .visible-md,
-  .visible-lg {
+  
+}
+@media (min-width: 768px) and (max-width: 979px){
+  .visible-md {
     display: block !important;
   }
 }
@@ -149,7 +164,7 @@ html {
   .container {
     max-width: 960px;
   }
-
+  .m-col-2,
   .m-col-4,
   .m-col-8,
   .m-col-3,
@@ -159,6 +174,9 @@ html {
     float: left;
   }
   
+  .m-col-2 {
+    width: 16.66666666666667%;
+  }
   .m-col-3 {
     width: 25%;
   }
@@ -179,6 +197,9 @@ html {
   }
   .m-col-8 {
     width: 66.66666666666666%;
+  }
+  .visible-lg {
+    display: block !important;
   }
 }
 

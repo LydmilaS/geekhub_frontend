@@ -1,0 +1,75 @@
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 50%; }
+
+  header .nav a {
+    padding: 10px 0;
+    margin: 0 10px; } }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .nav-chapter {
+    width: 33.3333333%; } }
+@media screen and (min-width: 480px) {
+  .contact .connect li {
+    width: 33%; }
+
+  .pricing .pricing-item {
+    width: 46%;
+    margin: 20px 8px;
+    float: left; }
+    .pricing .pricing-item:hover {
+      transform: scale(1.1);
+      width: 40%;
+      margin: 20px 5px; } }
+@media screen and (max-width: 767px) {
+  .focus .pull-right {
+    float: left !important; }
+
+  .focus .text-right {
+    text-align: left; }
+
+  .focus .icon {
+    margin: 15px 20px; }
+
+  .navbar-toggle {
+    position: absolute;
+    top: -50px;
+    right: 0; }
+
+  .navbar {
+    padding: 0;
+    min-height: 0;
+    margin-bottom: 0;
+    border: 1px solid transparent; }
+    .navbar ul {
+      background-color: lightgoldenrodyellow; }
+
+  .contact .section-content span {
+    align-items: flex-start; } }
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 62.5%; }
+
+  .blog .post {
+    width: 48%;
+    margin: 7px; }
+
+  .pricing .pricing-item {
+    width: 30%;
+    margin: 20px 12px;
+    float: left; }
+    .pricing .pricing-item:hover {
+      transform: scale(1.1);
+      width: 27%;
+      margin: 20px 4px; }
+
+  .process .section-content ul {
+    background: url(../images/vert-line.jpg) repeat-y;
+    background-position: 8%; }
+
+  .about .our-statistic li:nth-child(2) {
+    border-bottom: 0;
+    border-right: 0; }
+  .about .our-statistic li:first-child {
+    border-bottom: 0; } }
+
+/*# sourceMappingURL=media.css.map */
