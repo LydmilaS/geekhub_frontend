@@ -1,0 +1,224 @@
+/*
+Theme Name: Deliver
+Author: admin
+Author URI: admin
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import url("reset.css");
+@import url("bootstrap/css/bootstrap.css");
+html {
+  font-size: 62.5%; }
+
+body {
+  font-weight: 400; }
+  body img {
+    width: 100%;
+    height: auto; }
+  body a {
+    color: inherit; }
+    body a:hover {
+      text-decoration: none; }
+  body li {
+    display: inline-block; }
+
+header {
+  padding: 50px 0 30px;
+  width: 100%; }
+  header .logo {
+    padding-bottom: 30px;
+    color: #666262;
+    font-family: Pacifico;
+    font-size: 4rem;
+    line-height: 1.8rem; }
+    header .logo a:hover {
+      color: #87b672; }
+  header .soc-links a {
+    width: 34px;
+    height: 34px;
+    -webkit-border-radius: 34px;
+    border-radius: 34px;
+    background-color: #d4d4d4;
+    color: white;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-right: 10px; }
+    header .soc-links a:hover {
+      color: #666262;
+      text-decoration: none; }
+  header .row.navigation {
+    border-top: 1px solid #ccc; }
+  header .menu {
+    color: #666262;
+    font-family: Novecentowide;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.8rem; }
+    header .menu a {
+      display: block;
+      padding: 30px 40px 0 0; }
+      header .menu a:hover, header .menu a:focus, header .menu a:active {
+        color: #87b672; }
+  header .navbar-collapse {
+    padding: 0; }
+  header .navbar {
+    margin: 0;
+    padding: 0; }
+
+.content {
+  background: url("images/background-title-pages.jpg") top center no-repeat; }
+  .content .page {
+    text-align: center; }
+    .content .page h2 {
+      padding: 36px 0;
+      color: #fefefe;
+      font-family: Novecentowide;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 18px;
+      width: 100%;
+      margin: 0; }
+    .content .page h3 {
+      color: #5f5b5b;
+      font-family: Novecentowide;
+      font-size: 2.2rem;
+      font-weight: 600;
+      line-height: 2.4rem;
+      padding: 60px 0 26px; }
+    .content .page p {
+      color: #8f8f8f;
+      font-family: HelveticaNeue;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 2.4rem;
+      max-width: 838px;
+      margin: 0 auto 60px; }
+    .content .page .portfolio-post-item h3 {
+      padding: 0; }
+    .content .page .child-nav {
+      padding: 60px 0;
+      border-top: 1px solid #ccc;
+      font-family: Novecentowide;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.8rem;
+      color: #5f5b5b; }
+      .content .page .child-nav a {
+        padding-right: 10px; }
+        .content .page .child-nav a:hover {
+          color: #87b672; }
+  .content .get-quote {
+    padding: 60px 0;
+    border-top: 1px solid #ccc;
+    text-align: center; }
+    .content .get-quote h3 {
+      color: #5f5b5b;
+      font-family: Novecentowide;
+      font-size: 2.2rem;
+      font-weight: 600;
+      line-height: 2.4rem; }
+    .content .get-quote p {
+      padding: 26px 0;
+      max-width: 838px;
+      color: #8f8f8f;
+      font-family: HelveticaNeue;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      margin: 0 auto; }
+    .content .get-quote a {
+      display: inline-block;
+      background-color: #87b672;
+      padding: 14px 20px;
+      color: white;
+      font-family: Novecentowide;
+      font-size: 1.4rem;
+      font-weight: 600;
+      line-height: 1.8rem;
+      text-transform: uppercase; }
+      .content .get-quote a:hover {
+        color: black; }
+
+footer {
+  background-color: black;
+  padding: 80px 0;
+  text-align: left; }
+  footer form input[name="useremail"] {
+    padding: 5px;
+    background-color: #4e4c4c;
+    border: none;
+    color: #fefefe;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 24px; }
+  footer form input[name="submit"] {
+    padding: 5px 10px;
+    background-color: #828282;
+    border: none;
+    color: #fefefe;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 24px; }
+  footer .logo {
+    color: #fbfbfb;
+    font-family: Pacifico;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 24px; }
+  footer .menu,
+  footer .contact-info {
+    padding-top: 30px; }
+    footer .menu li,
+    footer .contact-info li {
+      display: block;
+      color: #9b9999;
+      font-family: HelveticaNeue;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px; }
+  footer h3 {
+    margin: 0;
+    color: #fefefe;
+    font-family: Novecentowide;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px; }
+  footer p {
+    color: #9b9999;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 30px; }
+  footer .soc-links {
+    text-align: right; }
+    footer .soc-links a {
+      width: 30px;
+      height: 30px;
+      -webkit-border-radius: 30px;
+      border-radius: 30px;
+      background-color: lightgray;
+      color: #666262;
+      display: flex;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      align-items: center;
+      margin-right: 10px; }
+      footer .soc-links a:hover {
+        background-color: #fefefe; }
+  footer .bottom-footer {
+    margin-top: 60px;
+    border-top: 1px solid grey;
+    padding: 30px; }
+    footer .bottom-footer ul {
+      text-align: right; }
+    footer .bottom-footer p {
+      padding: 0; }
+
+/*# sourceMappingURL=style.css.map */

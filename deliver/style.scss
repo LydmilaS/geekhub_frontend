@@ -1,0 +1,321 @@
+/*
+Theme Name: Deliver
+Author: admin
+Author URI: admin
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import url('reset.css');
+@import url('bootstrap/css/bootstrap.css');
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 400;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  a {
+    color: inherit;
+    
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  li {
+      display: inline-block;
+  }
+}
+
+header {
+  padding: 50px 0 30px; 
+  width: 100%;
+  
+  .logo {
+    padding-bottom: 30px; 
+    color: #666262;
+    font-family: Pacifico;
+    font-size: 4rem;
+    line-height: 1.8rem;
+    
+    a:hover {
+      color: #87b672;
+    }
+  }
+
+  .soc-links {
+    a { 
+      width: 34px;
+      height: 34px;
+      -webkit-border-radius: 34px; 
+      border-radius: 34px; 
+      background-color: #d4d4d4;
+      color: white;
+      display: flex;
+      -webkit-justify-content: center; 
+      justify-content: center; 
+      -webkit-align-items: center; 
+      align-items: center;
+      margin-right: 10px;  
+      
+      &:hover {
+        color: #666262;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+  .row.navigation {
+    border-top: 1px solid #ccc;
+  }
+  .menu {
+      color: #666262;
+      font-family: Novecentowide;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.8rem;
+      
+      
+      a {
+        display: block;
+        padding: 30px 40px 0 0; 
+        
+        &:hover,
+        &:focus,
+        &:active {
+            color: #87b672;
+        } 
+      }
+  }
+
+  .navbar-collapse {
+    padding: 0; 
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.content {
+  background: url('images/background-title-pages.jpg') top center no-repeat; 
+
+  .page {
+
+    text-align: center;
+
+    h2 {
+      padding: 36px 0; 
+      color: #fefefe;
+      font-family: Novecentowide;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 18px;
+      width: 100%; 
+      margin: 0;
+    }
+
+    h3 {
+      color: #5f5b5b;
+      font-family: Novecentowide;
+      font-size: 2.2rem;
+      font-weight: 600;
+      line-height: 2.4rem;
+      padding: 60px 0 26px; 
+    }
+
+    p {
+      color: #8f8f8f;
+      font-family: HelveticaNeue;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 2.4rem;
+      max-width: 838px;
+      margin: 0 auto 60px; 
+    }
+
+    .portfolio-post-item {
+      h3 {
+        padding: 0; 
+      }
+
+      p {
+        
+      }
+    }
+
+    .child-nav {
+      padding: 60px 0; 
+      border-top: 1px solid #ccc; 
+      font-family: Novecentowide;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.8rem;
+      color: #5f5b5b;
+      
+      a {
+        padding-right: 10px;
+        &:hover {
+          color: #87b672;
+        }
+      }
+    }
+  }
+
+  .get-quote {
+    padding: 60px 0; 
+    border-top: 1px solid #ccc; 
+    text-align: center;
+    h3 {
+      color: #5f5b5b;
+      font-family: Novecentowide;
+      font-size: 2.2rem;
+      font-weight: 600;
+      line-height: 2.4rem;
+    }
+
+    p {
+      padding: 26px 0; 
+      max-width: 838px;
+      color: #8f8f8f;
+      font-family: HelveticaNeue;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      margin: 0 auto;
+    }
+
+    a {
+      display: inline-block;
+      background-color: #87b672;
+      padding: 14px 20px; 
+      color: white;
+      font-family: Novecentowide;
+      font-size: 1.4rem;
+      font-weight: 600;
+      line-height: 1.8rem;
+      text-transform: uppercase;
+      
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
+
+
+footer {
+  background-color: black;
+  padding: 80px 0;
+  text-align: left;
+  
+  form {
+
+    input[name="useremail"] {
+    padding: 5px; 
+    background-color: #4e4c4c;
+    border: none;
+    color: #fefefe;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  input[name="submit"] {
+    padding: 5px 10px; 
+   background-color: #828282;
+    border: none;
+    color: #fefefe;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  }
+  
+
+  .logo {
+    color: #fbfbfb;
+    font-family: Pacifico;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .menu,
+  .contact-info {
+    padding-top: 30px;
+        
+        li {
+          display: block;
+          color: #9b9999;
+          font-family: HelveticaNeue;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+        }    
+  }
+
+  h3 {
+    margin: 0; 
+    color: #fefefe;
+    font-family: Novecentowide;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  p {
+    color: #9b9999;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 30px; 
+  }
+  .soc-links {
+    text-align: right;
+    a { 
+      width: 30px;
+      height: 30px;
+      -webkit-border-radius: 30px; 
+      border-radius: 30px; 
+      background-color: lightgray;
+      color: #666262;
+      display: flex;
+      -webkit-justify-content: center; 
+      justify-content: center; 
+      -webkit-align-items: center; 
+      align-items: center;
+      margin-right: 10px;  
+      
+      &:hover {
+        background-color: #fefefe;
+      }
+    }
+
+  }
+
+  .bottom-footer {
+    margin-top: 60px;
+    border-top: 1px solid grey;
+    padding: 30px;
+    
+    ul {
+      text-align: right;
+    }
+    
+    p {
+      padding: 0; 
+    }   
+  }
+
+}
